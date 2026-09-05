@@ -1,0 +1,17 @@
+id: fdic_hq_institutions
+version: 1
+dataset: FDIC institution records (api.fdic.gov/banks/institutions)
+question_shapes: [control, distribution, change_over_time]
+metrics:
+  - name: institutions_hq_in_region
+    description: FDIC-insured institutions headquartered in the five counties, active June 30 of each year
+    unit: count
+    stock_or_flow: stock
+geography: county (HQ county FIPS, field STCNTY)
+five_county_cut: STCNTY in [18141, 18039, 18099, 26021, 26027]
+vintages: 1934–present (annual, June 30 as-of)
+refresh: weekly pull; measure changes when a charter opens, closes, merges, or relocates
+caveats:
+  - HQ county is the institution's current or final HQ, applied to its whole history.
+  - Pre-1989 FSLIC thrifts may be under-covered.
+used_by: ["001"]

@@ -1,0 +1,293 @@
+{
+  "base_name": "Q&R Research Candidates",
+  "note": "Own base, separate from the deal pipeline base. One-way write from the pipeline. Human edits only: status, editor_note.",
+  "tables": {
+    "candidates": {
+      "fields": [
+        {
+          "name": "candidate_id",
+          "type": "singleLineText",
+          "note": "pipeline-generated, stable"
+        },
+        {
+          "name": "feed",
+          "type": "singleSelect",
+          "options": [
+            "scanner",
+            "lens"
+          ]
+        },
+        {
+          "name": "candidate_type",
+          "type": "singleSelect",
+          "options": [
+            "event",
+            "accumulation",
+            "observation_draft"
+          ]
+        },
+        {
+          "name": "source",
+          "type": "singleLineText",
+          "note": "connector source_id, e.g. fdic_sod"
+        },
+        {
+          "name": "counties",
+          "type": "multipleSelects",
+          "options": [
+            "St. Joseph IN",
+            "Elkhart IN",
+            "Marshall IN",
+            "Berrien MI",
+            "Cass MI"
+          ]
+        },
+        {
+          "name": "coverage_note",
+          "type": "singleLineText",
+          "note": "e.g. 'IN counties only' when the data forces a subset"
+        },
+        {
+          "name": "headline",
+          "type": "singleLineText",
+          "note": "<=120 chars"
+        },
+        {
+          "name": "question",
+          "type": "singleLineText",
+          "note": "Lens only. One line."
+        },
+        {
+          "name": "measure",
+          "type": "multilineText",
+          "note": "Lens only. One sentence, everyday ratio, region and vintage named."
+        },
+        {
+          "name": "method",
+          "type": "multilineText",
+          "note": "Lens only. source \u00b7 vintage \u00b7 geography \u00b7 cut \u00b7 caveat"
+        },
+        {
+          "name": "why_it_might_matter",
+          "type": "multilineText",
+          "note": "One paragraph (Scanner) or one sentence (Lens), against the stance"
+        },
+        {
+          "name": "axis_a",
+          "type": "multipleSelects",
+          "options": [
+            "source",
+            "ownership",
+            "control",
+            "destination",
+            "duration",
+            "distribution",
+            "transformation",
+            "type"
+          ]
+        },
+        {
+          "name": "axis_b",
+          "type": "multipleSelects",
+          "options": [
+            "unmeasured",
+            "surprising",
+            "large",
+            "connected",
+            "legible"
+          ]
+        },
+        {
+          "name": "function",
+          "type": "multipleSelects",
+          "options": [
+            "Circulation",
+            "Conversion",
+            "Regeneration",
+            "Stewardship",
+            "Resilience",
+            "Exchange",
+            "Spatial Productivity"
+          ]
+        },
+        {
+          "name": "stock_or_flow",
+          "type": "singleSelect",
+          "options": [
+            "stock",
+            "flow"
+          ],
+          "note": "required for lens"
+        },
+        {
+          "name": "screen_result",
+          "type": "singleSelect",
+          "options": [
+            "surface",
+            "hold",
+            "kill"
+          ]
+        },
+        {
+          "name": "confidence",
+          "type": "singleSelect",
+          "options": [
+            "solid",
+            "soft",
+            "speculative"
+          ]
+        },
+        {
+          "name": "evidence_urls",
+          "type": "multilineText",
+          "note": "one primary-record URL per line; >=1 required"
+        },
+        {
+          "name": "recipe_ids",
+          "type": "multilineText",
+          "note": "Lens only; >=1 required"
+        },
+        {
+          "name": "chart_series",
+          "type": "multilineText",
+          "note": "Lens only, optional. JSON x/y series behind the measure, for chart-backed posts."
+        },
+        {
+          "name": "entity",
+          "type": "multipleRecordLinks",
+          "linked_table": "entities",
+          "note": "Scanner; optional in Phase 0"
+        },
+        {
+          "name": "related_candidates",
+          "type": "multipleRecordLinks",
+          "linked_table": "candidates"
+        },
+        {
+          "name": "raw_ref",
+          "type": "singleLineText",
+          "note": "path or key to stored raw payload"
+        },
+        {
+          "name": "created_at",
+          "type": "dateTime"
+        },
+        {
+          "name": "status",
+          "type": "singleSelect",
+          "options": [
+            "new",
+            "reviewing",
+            "kept",
+            "killed",
+            "published"
+          ],
+          "note": "HUMAN ONLY"
+        },
+        {
+          "name": "editor_note",
+          "type": "multilineText",
+          "note": "HUMAN ONLY"
+        }
+      ],
+      "suggested_views": [
+        "Inbox (status=new, sorted created_at desc)",
+        "By source (grouped source)",
+        "By function (grouped function)",
+        "Kept rate (grouped source; count kept vs killed)"
+      ]
+    },
+    "entities": {
+      "note": "Not required for Phase 0. Create when the second Scanner source lands.",
+      "fields": [
+        {
+          "name": "entity_id",
+          "type": "singleLineText"
+        },
+        {
+          "name": "name",
+          "type": "singleLineText"
+        },
+        {
+          "name": "aliases",
+          "type": "multilineText"
+        },
+        {
+          "name": "entity_type",
+          "type": "singleSelect",
+          "options": [
+            "business",
+            "bank",
+            "nonprofit",
+            "government",
+            "fund",
+            "other"
+          ]
+        },
+        {
+          "name": "county",
+          "type": "multipleSelects",
+          "options": [
+            "St. Joseph IN",
+            "Elkhart IN",
+            "Marshall IN",
+            "Berrien MI",
+            "Cass MI"
+          ]
+        },
+        {
+          "name": "addresses",
+          "type": "multilineText"
+        }
+      ]
+    },
+    "sources": {
+      "note": "Feed health. One row per connector, updated by the pipeline.",
+      "fields": [
+        {
+          "name": "source_id",
+          "type": "singleLineText"
+        },
+        {
+          "name": "tier",
+          "type": "number"
+        },
+        {
+          "name": "cadence",
+          "type": "singleLineText"
+        },
+        {
+          "name": "last_success",
+          "type": "dateTime"
+        },
+        {
+          "name": "last_volume",
+          "type": "number"
+        },
+        {
+          "name": "expected_min",
+          "type": "number"
+        },
+        {
+          "name": "expected_max",
+          "type": "number"
+        },
+        {
+          "name": "schema_hash",
+          "type": "singleLineText"
+        },
+        {
+          "name": "health",
+          "type": "singleSelect",
+          "options": [
+            "ok",
+            "silent",
+            "volume_out_of_band",
+            "schema_drift",
+            "error"
+          ]
+        }
+      ]
+    }
+  }
+}

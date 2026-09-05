@@ -1,0 +1,8 @@
+[Unit]
+Description=Run Q&R Research feeds weekly (Monday 06:15 local)
+[Timer]
+OnCalendar=Mon *-*-* 06:15:00
+Persistent=true
+RandomizedDelaySec=10m
+[Install]
+WantedBy=timers.target

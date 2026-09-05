@@ -1,0 +1,22 @@
+id: gateway_parcel_ownership
+version: 1
+dataset: Indiana DLGF Gateway — county assessor Real Property PARCEL files (50 IAC 26-20-4), all parcels, three IN counties
+question_shapes: [ownership, control, distribution, duration, destination]
+metrics:
+  - {name: owner_locality_share, description: "Share of parcels (or AV, or acres) by owner mailing-address bucket: owner's home / nearby / elsewhere IN-MI / out of state", unit: share, stock_or_flow: stock}
+  - {name: entity_owned_share, description: "Share of parcels owned by an organization (LLC, Inc, trust, institution) by property class", unit: share, stock_or_flow: stock}
+  - {name: top_owner_concentration, description: "Parcels/AV held by the largest N owners in a class", unit: count, stock_or_flow: stock}
+definitions:
+  owners_home: owner mailing house number and ZIP5 equal the property's (reproduces published #006 as 81/15/1/3 vs 82/14/2/2)
+  nearby: owner mailing ZIP5 is any ZIP5 that appears as a property ZIP in the three counties
+  property_classes: {single_family: "510–515", commercial: "400–499", agricultural: "100–199", industrial: "300–399"}
+geography: county (IN only: 18141, 18039, 18099). Michigan requires BS&A portals — not covered.
+five_county_cut: county code 71/20/50 in the Gateway form
+vintages: 2011-pay-2012 forward, one file per assessment year; latest year auto-detected
+refresh: annual (files land in spring)
+caveats:
+  - Mailing address is not beneficial ownership. LLCs, trusts, and registered agents make the local share a ceiling.
+  - Family trusts holding one home are counted as entities.
+  - Michigan counties absent; every candidate carries coverage_note.
+  - Download is a scripted ASP.NET form post (Tier 2); a Gateway redesign will break it and health will say so.
+used_by: ["006"]

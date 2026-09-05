@@ -1,0 +1,27 @@
+id: fdic_deposits_control
+version: 1
+dataset: FDIC Summary of Deposits (api.fdic.gov/banks/sod)
+question_shapes: [control, ownership, destination, distribution, source]
+metrics:
+  - name: share_deposits_run_from_elsewhere
+    description: Share of deposits in five-county branches held by institutions headquartered outside the five counties
+    unit: share
+    stock_or_flow: stock
+  - name: region_share_of_us_deposits
+    description: Five-county branch deposits as a share of all US branch deposits
+    unit: share
+    stock_or_flow: stock
+  - name: region_share_of_national_banks
+    description: Five-county deposits as a share of the total US deposits of holding companies with > $100B US deposits, deposit-weighted
+    unit: share
+    stock_or_flow: stock
+    definition_note: "'National' = holding company with > $100B US deposits in that SOD year. Fixed here so the figure is reproducible."
+geography: branch county FIPS (STCNTYBR); institution HQ county (STCNTY); holding company (RSSDHCR)
+five_county_cut: STCNTYBR in [18141, 18039, 18099, 26021, 26027]
+vintages: 1994–present, June each year, published ~October
+refresh: annual
+caveats:
+  - Deposits are assigned to branches by the reporting bank; large accounts may be booked to a main office elsewhere.
+  - "Run from elsewhere" by institution HQ; holding-company HQ is a stricter alternative reading.
+  - National-bank share moves ~1–2¢ per $100 between years and definitions; state both.
+used_by: ["001", "002"]

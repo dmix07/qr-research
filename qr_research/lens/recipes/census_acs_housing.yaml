@@ -1,0 +1,18 @@
+id: census_acs_housing
+version: 1
+dataset: Census ACS 5-year, county and place tables (API; requires CENSUS_API_KEY)
+question_shapes: [ownership, destination, source]
+metrics:
+  - {name: median_home_value, unit: dollars, stock_or_flow: stock}
+  - {name: median_gross_rent, unit: dollars_per_month, stock_or_flow: flow}
+  - {name: owner_occupied_share, unit: share, stock_or_flow: stock}
+  - {name: gross_rental_yield, description: 12 × median gross rent ÷ median home value (as in #005), unit: share, stock_or_flow: flow}
+geography: county; place (cities) for #005
+five_county_cut: state+county in the five FIPS; places by name list for city-level cuts
+vintages: 5-year rolling, annual release, ~1-year lag
+refresh: annual
+caveats:
+  - Five-year estimates blend years; label the window (e.g. 2020–2024).
+  - Margins of error are large for small places; report them when a difference is the point.
+  - Not yet pulled — connector supports it once CENSUS_API_KEY is set.
+used_by: ["005"]

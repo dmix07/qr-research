@@ -1,0 +1,11 @@
+[Unit]
+Description=Q&R Research feeds — fetch, candidates, screen, deliver, health
+After=network-online.target
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/qr-research
+EnvironmentFile=/opt/qr-research/.env
+ExecStartPre=/usr/bin/git -C /opt/qr-research pull --ff-only
+ExecStart=/opt/qr-research/.venv/bin/python -m qr_research.run
+ExecStart=/usr/bin/make -C /opt/qr-research candidates screen deliver health
+ExecStopPost=/opt/qr-research/deploy/alert_on_failure.sh

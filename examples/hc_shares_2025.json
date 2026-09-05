@@ -1,0 +1,149 @@
+[
+ {
+  "name": "1ST SOURCE CORPORATION",
+  "state": "IN",
+  "region_k": 5020936,
+  "us_k": 7443183,
+  "share": 0.6745683936563162
+ },
+ {
+  "name": "JPMORGAN CHASE & CO.",
+  "state": "NY",
+  "region_k": 1790769,
+  "us_k": 2132981500,
+  "share": 0.0008395614307953444
+ },
+ {
+  "name": "LAKELAND FINANCIAL CORPORATION",
+  "state": "IN",
+  "region_k": 1704266,
+  "us_k": 6179074,
+  "share": 0.27581252465984385
+ },
+ {
+  "name": "FIFTH THIRD BANCORP",
+  "state": "OH",
+  "region_k": 1161517,
+  "us_k": 167802061,
+  "share": 0.006921947162496413
+ },
+ {
+  "name": "CRYSTAL VALLEY FINANCIAL CORPORATION",
+  "state": "IN",
+  "region_k": 671994,
+  "us_k": 671994,
+  "share": 1.0
+ },
+ {
+  "name": "KEYCORP",
+  "state": "OH",
+  "region_k": 586675,
+  "us_k": 151999252,
+  "share": 0.0038597229412681584
+ },
+ {
+  "name": "HUNTINGTON BANCSHARES INCORPORATED",
+  "state": "OH",
+  "region_k": 483796,
+  "us_k": 167403258,
+  "share": 0.002890003490852012
+ },
+ {
+  "name": "PNC FINANCIAL SERVICES GROUP, INC., THE",
+  "state": "PA",
+  "region_k": 450357,
+  "us_k": 432497011,
+  "share": 0.0010412950576437626
+ },
+ {
+  "name": "FIRST BANCSHARES, INC.",
+  "state": "IN",
+  "region_k": 379116,
+  "us_k": 7960250,
+  "share": 0.04762614239502528
+ },
+ {
+  "name": "OLD NATIONAL BANCORP",
+  "state": "IN",
+  "region_k": 370697,
+  "us_k": 54862635,
+  "share": 0.006756820921926189
+ },
+ {
+  "name": "HORIZON BANCORP, INC.",
+  "state": "IN",
+  "region_k": 329812,
+  "us_k": 5776629,
+  "share": 0.05709419801756353
+ },
+ {
+  "name": "STURGIS BANCORP, INC.",
+  "state": "MI",
+  "region_k": 258586,
+  "us_k": 882522,
+  "share": 0.2930079930018742
+ },
+ {
+  "name": "AMERICAN MIDWEST FINANCIAL CORPORATION",
+  "state": "IN",
+  "region_k": 205931,
+  "us_k": 476979,
+  "share": 0.4317401814335642
+ },
+ {
+  "name": "NORTHWEST BANCSHARES INC",
+  "state": "OH",
+  "region_k": 193785,
+  "us_k": 12505459,
+  "share": 0.01549603257265487
+ },
+ {
+  "name": "FLAGSTAR FINANCIAL, INC.",
+  "state": "NY",
+  "region_k": 179393,
+  "us_k": 70246292,
+  "share": 0.002553771806204376
+ },
+ {
+  "name": "JONES BANCORP, INC.",
+  "state": "MI",
+  "region_k": 98391,
+  "us_k": 98391,
+  "share": 1.0
+ },
+ {
+  "name": "FIRST FARMERS FINANCIAL CORPORATION",
+  "state": "IN",
+  "region_k": 79511,
+  "us_k": 2863096,
+  "share": 0.027770986372793648
+ },
+ {
+  "name": "FIRST MERCHANTS CORPORATION",
+  "state": "IN",
+  "region_k": 63917,
+  "us_k": 14860189,
+  "share": 0.00430122389425868
+ },
+ {
+  "name": "FS BANCORP",
+  "state": "IN",
+  "region_k": 17953,
+  "us_k": 1161559,
+  "share": 0.01545595187157949
+ },
+ {
+  "name": "C&F BANC SHARES CORP.",
+  "state": "IN",
+  "region_k": 13483,
+  "us_k": 246552,
+  "share": 0.05468623251890068
+ },
+ {
+  "name": "WOODFOREST FINANCIAL GROUP EMPLOYEE STOCK OWNERSHIP PLAN (WITH 401(K) PROVISIONS) (AMENDED AND RESTATED EFF. 01/01/21)",
+  "state": "TX",
+  "region_k": 12438,
+  "us_k": 8331793,
+  "share": 0.0014928359357943722
+ }
+]

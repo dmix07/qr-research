@@ -1,0 +1,22 @@
+id: census_cbp_size_bands
+version: 1
+dataset: Census County Business Patterns, county × NAICS × employment size band (bulk cbpYYco.zip)
+question_shapes: [distribution, type, ownership]
+metrics:
+  - name: establishments_by_size_band
+    description: Establishments with employees, by size band, by county and NAICS
+    unit: count
+    stock_or_flow: stock
+  - name: establishments_5_to_249
+    description: Establishments with 5–249 employees, all industries (the succession-relevant band used in #003)
+    unit: count
+    stock_or_flow: stock
+geography: county
+five_county_cut: fipstate+fipscty in the five FIPS
+vintages: annual, ~18-month lag
+refresh: annual
+caveats:
+  - Establishments, not firms; a multi-location firm counts once per location.
+  - Excludes most government, railroads, and self-employed (see Nonemployer Statistics).
+  - Cells with disclosure suppression (N/D/S) are null, not zero.
+used_by: ["003"]

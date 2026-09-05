@@ -1,0 +1,162 @@
+[
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "in_gateway_parcels",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN"
+  ],
+  "coverage_note": "Indiana counties only (Berrien, Cass not yet covered)",
+  "created_at": "2026-09-05T20:17:46.311644+00:00",
+  "status": "new",
+  "recipe_ids": [
+   "gateway_parcel_ownership"
+  ],
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "stock_or_flow": "stock",
+  "candidate_id": "lens-gw-006-refresh-2025",
+  "headline": "#006 refresh (2025): 81 of 100 houses are the owner's home",
+  "question": "Who owns the houses?",
+  "measure": "Of every 100 single-family houses in St. Joseph, Elkhart, and Marshall counties, 81 are the owner's home, 15 belong to someone nearby, 1 to an owner elsewhere in Indiana or Michigan, and 3 out of state.",
+  "method": "County assessor PARCEL files, 2025 assessment, via Indiana DLGF Gateway; classes 510\u2013515. 'Owner's home' = owner mailing house number and ZIP match the property; 'nearby' = mailing ZIP is a ZIP within the three counties. Mailing address, so the local share is a ceiling.",
+  "why_it_might_matter": "Published figure holds on refresh with the definition now written down.",
+  "axis_a": [
+   "ownership"
+  ],
+  "axis_b": [
+   "legible"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "confidence": "solid",
+  "screen_result": "hold"
+ },
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "in_gateway_parcels",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN"
+  ],
+  "coverage_note": "Indiana counties only (Berrien, Cass not yet covered)",
+  "created_at": "2026-09-05T20:17:46.311693+00:00",
+  "status": "new",
+  "recipe_ids": [
+   "gateway_parcel_ownership"
+  ],
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "stock_or_flow": "stock",
+  "candidate_id": "lens-gw-commercial-owners-2025",
+  "headline": "Commercial property: 48\u00a2 of every $1 of assessed value is owned from within the three counties",
+  "question": "Who owns the commercial buildings?",
+  "measure": "Of every $1 of assessed commercial property value in the three counties, about 48\u00a2 is owned by someone with a local mailing address, 19\u00a2 by an owner elsewhere in Indiana or Michigan, and 33\u00a2 by an owner out of state.",
+  "method": "PARCEL files, 2025 assessment, classes 400\u2013499, weighted by assessed value. Locality by owner mailing ZIP. Caveat: many commercial parcels are owned through LLCs whose mailing address is a registered agent or manager, not the beneficial owner; local share is a ceiling.",
+  "why_it_might_matter": "The commercial counterpart to #006. Nobody has put a number on where control of the region's commercial real estate sits.",
+  "axis_a": [
+   "ownership",
+   "control",
+   "destination"
+  ],
+  "axis_b": [
+   "unmeasured",
+   "legible",
+   "connected"
+  ],
+  "function": [
+   "Stewardship",
+   "Spatial Productivity"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "in_gateway_parcels",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN"
+  ],
+  "coverage_note": "Indiana counties only (Berrien, Cass not yet covered)",
+  "created_at": "2026-09-05T20:17:46.311702+00:00",
+  "status": "new",
+  "recipe_ids": [
+   "gateway_parcel_ownership"
+  ],
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "stock_or_flow": "stock",
+  "candidate_id": "lens-gw-farmland-owners-2025",
+  "headline": "Farmland: 90 of every 100 acres are owned from within the three counties",
+  "question": "Who owns the farmland?",
+  "measure": "Of every 100 acres of agricultural land in the three counties, about 90 are owned by someone with a local mailing address, 6 by an owner elsewhere in Indiana or Michigan, and 4 by an owner out of state.",
+  "method": "PARCEL files, 2025 assessment, classes 100\u2013199, weighted by deeded acreage. Locality by owner mailing ZIP. Caveat: trusts and family LLCs are common in farmland; mailing address may be an attorney or trustee.",
+  "why_it_might_matter": "A grid cell (farmland \u00d7 ownership) with no prior measure. Farmland is the region's largest land use and one of its slowest-moving stores of wealth.",
+  "axis_a": [
+   "ownership",
+   "duration"
+  ],
+  "axis_b": [
+   "unmeasured",
+   "legible"
+  ],
+  "function": [
+   "Stewardship",
+   "Resilience"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "in_gateway_parcels",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN"
+  ],
+  "coverage_note": "Indiana counties only (Berrien, Cass not yet covered)",
+  "created_at": "2026-09-05T20:17:46.311725+00:00",
+  "status": "new",
+  "recipe_ids": [
+   "gateway_parcel_ownership"
+  ],
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "stock_or_flow": "stock",
+  "candidate_id": "lens-gw-entity-landlords-2025",
+  "headline": "11 of every 100 single-family houses are owned by a company, trust, or institution",
+  "question": "How many houses are owned by companies?",
+  "measure": "Of every 100 single-family houses in the three counties, 11 are owned by an LLC, corporation, trust, or institution rather than a named person. The five largest entity owners hold 574 houses between them.",
+  "method": "PARCEL files, 2025 assessment, classes 510\u2013515; entity = owner name matches organizational patterns (LLC, Inc, Trust, etc.). Caveat: family trusts holding a single home are counted as entities; this overstates 'investor' ownership.",
+  "why_it_might_matter": "Bridges #005 (investor appeal) and #006 (who owns the houses): the size of the corporate slice, and how concentrated it is.",
+  "axis_a": [
+   "ownership",
+   "type",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured",
+   "connected",
+   "legible"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ }
+]

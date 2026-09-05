@@ -1,0 +1,253 @@
+[
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "fdic",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN",
+   "Berrien MI",
+   "Cass MI"
+  ],
+  "coverage_note": "",
+  "created_at": "2026-09-05T14:41:13.410525+00:00",
+  "status": "new",
+  "candidate_id": "lens-fdic-001-refresh-2025",
+  "headline": "#001 refresh: 4 institutions run from here (2025); 59% of deposits run from elsewhere",
+  "question": "How has ownership of our banks changed?",
+  "measure": "At its peak in 1974, 47 banks and thrifts were headquartered in the five counties. In June 2025, 4 remain, and 59\u00a2 of every dollar on deposit sits with an institution run from somewhere else.",
+  "method": "FDIC institution records and Summary of Deposits, June each year, five counties. 'Run from here' = institution headquartered in the five counties. Caveat: HQ county reflects an institution's final headquarters across its whole history; pre-1989 thrift coverage may be incomplete.",
+  "why_it_might_matter": "Published figure holds on refresh; no material change since publication.",
+  "axis_a": [
+   "control",
+   "distribution"
+  ],
+  "axis_b": [
+   "legible",
+   "connected"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "recipe_ids": [
+   "fdic_hq_institutions",
+   "fdic_deposits_control"
+  ],
+  "evidence_urls": [
+   "https://api.fdic.gov/banks/institutions?filters=STCNTY:(18141%20OR%2018039%20OR%2018099%20OR%2026021%20OR%2026027)",
+   "https://api.fdic.gov/banks/sod?filters=STCNTYBR:(18141%20OR%2018039%20OR%2018099%20OR%2026021%20OR%2026027)"
+  ],
+  "confidence": "solid",
+  "screen_result": "hold",
+  "why_hold": "Refresh of a published measure \u2014 surface only if the number moved."
+ },
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "fdic",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN",
+   "Berrien MI",
+   "Cass MI"
+  ],
+  "coverage_note": "",
+  "created_at": "2026-09-05T14:41:13.410553+00:00",
+  "status": "new",
+  "candidate_id": "lens-fdic-002-refresh-2025",
+  "headline": "#002 refresh: region is 1 in 1,282 of US deposits (2025); was 1 in 494 in 1994",
+  "question": "Do our deposits matter to the big banks?",
+  "measure": "In 1994 about 1 in 494 dollars on deposit in US banks was in the five counties; in 2025, about 1 in 1,282. To the holding companies with more than $100 billion in US deposits, the region is about 15\u00a2 of every $100 they hold.",
+  "method": "FDIC Summary of Deposits, June each year. National banks defined as holding companies with > $100B US deposits in the same year, deposit-weighted (five in 2025: JPMorgan, PNC, Fifth Third, KeyCorp, Huntington). Caveat: this definition gives 15\u201317\u00a2 depending on year; the published 18\u00a2 likely used a slightly broader set or the 2024 vintage. Fixing the definition makes the figure reproducible.",
+  "why_it_might_matter": "Published 18\u00a2 reproduces as 15\u201317\u00a2 under an explicit definition; method note should carry the definition on next refresh.",
+  "axis_a": [
+   "distribution",
+   "destination"
+  ],
+  "axis_b": [
+   "legible",
+   "connected"
+  ],
+  "function": [
+   "Exchange"
+  ],
+  "stock_or_flow": "stock",
+  "recipe_ids": [
+   "fdic_deposits_control"
+  ],
+  "evidence_urls": [
+   "https://api.fdic.gov/banks/sod?filters=STCNTYBR:(18141%20OR%2018039%20OR%2018099%20OR%2026021%20OR%2026027)"
+  ],
+  "confidence": "solid",
+  "screen_result": "hold",
+  "why_hold": "Refresh with a definitional note for the editor, not a new finding."
+ },
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "fdic",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN",
+   "Berrien MI",
+   "Cass MI"
+  ],
+  "coverage_note": "",
+  "created_at": "2026-09-05T14:41:13.410565+00:00",
+  "status": "new",
+  "candidate_id": "lens-fdic-elsewhere-peak-2025",
+  "headline": "Share of deposits run from elsewhere peaked at 70% in 2013; now 59%",
+  "question": "Is control of our deposits still leaving?",
+  "measure": "In 1994, 23\u00a2 of every dollar on deposit here sat with an institution run from elsewhere. That climbed to 70\u00a2 by 2013. Since then it has come back to 59\u00a2 \u2014 the first sustained move toward local control in the record.",
+  "method": "FDIC Summary of Deposits, June each year 1994\u20132025, five counties, by institution HQ county. Caveat: the reversal is driven mostly by one institution's growth (1st Source); it is a fact about concentration as much as about localness.",
+  "why_it_might_matter": "Contradicts the one-directional story #001 implies. The trend since 2010 runs the other way, though it rests on one bank.",
+  "axis_a": [
+   "control",
+   "distribution"
+  ],
+  "axis_b": [
+   "surprising",
+   "connected",
+   "legible"
+  ],
+  "function": [
+   "Stewardship",
+   "Resilience"
+  ],
+  "stock_or_flow": "stock",
+  "recipe_ids": [
+   "fdic_deposits_control"
+  ],
+  "evidence_urls": [
+   "https://api.fdic.gov/banks/sod?filters=STCNTYBR:(18141%20OR%2018039%20OR%2018099%20OR%2026021%20OR%2026027)"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "fdic",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN",
+   "Berrien MI",
+   "Cass MI"
+  ],
+  "coverage_note": "",
+  "created_at": "2026-09-05T14:41:13.410640+00:00",
+  "status": "new",
+  "candidate_id": "lens-fdic-branches-2025",
+  "headline": "Bank branches 219 \u2192 166 since 1994 while deposits grew $6.4B \u2192 $14.1B",
+  "question": "Where did the bank branches go?",
+  "measure": "Of every 4 bank branches in the five counties in 1994, about 3 remain today (219 \u2192 166). Over the same years, deposits here more than doubled, from $6.4 billion to $14.1 billion.",
+  "method": "FDIC Summary of Deposits, June 1994 and June 2025, branch counts and deposits for the five counties. Nominal dollars. Caveat: SOD counts reporting offices, which includes some non-retail locations; the branch trend is not adjusted for population.",
+  "why_it_might_matter": "Physical banking presence is shrinking as money grows \u2014 a Destination and Spatial Productivity question nobody has put a number on for the region.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured",
+   "legible"
+  ],
+  "function": [
+   "Spatial Productivity",
+   "Circulation"
+  ],
+  "stock_or_flow": "stock",
+  "recipe_ids": [
+   "fdic_deposits_control"
+  ],
+  "evidence_urls": [
+   "https://api.fdic.gov/banks/sod?filters=STCNTYBR:(18141%20OR%2018039%20OR%2018099%20OR%2026021%20OR%2026027)"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "lens",
+  "candidate_type": "observation_draft",
+  "source": "fdic",
+  "counties": [
+   "St. Joseph IN",
+   "Elkhart IN",
+   "Marshall IN",
+   "Berrien MI",
+   "Cass MI"
+  ],
+  "coverage_note": "",
+  "created_at": "2026-09-05T14:41:13.410972+00:00",
+  "status": "new",
+  "candidate_id": "lens-fdic-local-dependence-2025",
+  "headline": "67\u00a2 of every $1 1st Source holds anywhere is from the five counties",
+  "question": "How much do our banks depend on us?",
+  "measure": "Of every dollar 1st Source holds on deposit anywhere, about 67\u00a2 is from the five counties. For the five holding companies over $100 billion, it is about 15\u00a2 of every $100.",
+  "method": "FDIC Summary of Deposits, June 2025: each holding company's five-county deposits divided by its total US deposits. Caveat: 1st Source's out-of-region branches are recent; this share will fall as they grow, which is itself the thing to watch.",
+  "why_it_might_matter": "The mirror image of #002. Local banks are exposed to the region in a way national banks structurally cannot be \u2014 alignment, and concentration risk, in one number.",
+  "axis_a": [
+   "destination",
+   "source",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured",
+   "connected",
+   "legible"
+  ],
+  "function": [
+   "Exchange",
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "recipe_ids": [
+   "fdic_deposits_control"
+  ],
+  "evidence_urls": [
+   "https://api.fdic.gov/banks/sod?filters=STCNTYBR:(18141%20OR%2018039%20OR%2018099%20OR%2026021%20OR%2026027)",
+   "https://api.fdic.gov/banks/sod?filters=YEAR:2025%20AND%20RSSDHCR:1199611"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "fdic",
+  "counties": [
+   "Berrien MI"
+  ],
+  "coverage_note": "",
+  "created_at": "2026-09-05T14:41:13.411626+00:00",
+  "status": "new",
+  "candidate_id": "scan-fdic-inst-ended-29981",
+  "headline": "Edgewater  Bank (Saint Joseph, MI) ceased as an independent institution on 2021-05-01",
+  "question": "",
+  "measure": "",
+  "method": "",
+  "why_it_might_matter": "A locally headquartered institution left the record; its deposits now sit with an acquirer. One fewer of the '4 that remain' in #001. Holding company at end: EDGEWATER BCORP INC.",
+  "axis_a": [
+   "control",
+   "duration"
+  ],
+  "axis_b": [
+   "connected"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "flow",
+  "recipe_ids": [],
+  "evidence_urls": [
+   "https://api.fdic.gov/banks/institutions?filters=CERT:29981"
+  ],
+  "confidence": "solid",
+  "screen_result": "hold",
+  "why_hold": "Historical on first run; future runs surface only new changes."
+ }
+]

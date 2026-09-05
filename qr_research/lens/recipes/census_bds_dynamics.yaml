@@ -1,0 +1,29 @@
+id: census_bds_dynamics
+version: 1
+dataset: Census Business Dynamics Statistics, county time series 1978–latest (bulk bdsYYYY_st_cty.csv)
+question_shapes: [transformation, duration, distribution]
+metrics:
+  - name: firms
+    description: Firms with employees, by county and year
+    unit: count
+    stock_or_flow: stock
+  - name: establishment_entries_exits
+    description: Establishment births and deaths per year
+    unit: count
+    stock_or_flow: flow
+  - name: firm_deaths
+    description: Firms ceasing operation per year, and their employment
+    unit: count
+    stock_or_flow: flow
+  - name: reallocation_rate
+    description: Job creation + destruction as share of employment — churn
+    unit: rate
+    stock_or_flow: flow
+geography: county
+five_county_cut: st+cty in the five FIPS
+vintages: 1978–latest, annual (~2-year lag)
+refresh: annual
+caveats:
+  - Firm deaths include relocations out of scope and reorganizations; not all are business failures.
+  - County-level cells may be suppressed; sums across the five counties can be slightly low.
+used_by: []
