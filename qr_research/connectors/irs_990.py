@@ -106,8 +106,9 @@ class IRS990Connector(Connector):
         }]
 
     def expected_volume(self) -> tuple[int, int]:
-        return (20, 4000)  # a real run against Berrien+Cass alone (no IN data on this laptop)
-        # already returned 1282; widened with headroom for the three IN counties on the server
+        return (20, 6000)  # widened again after the first full 5-county server run returned
+        # 4,882 (the Berrien/Cass-only laptop test that produced 1,282 undersold how many
+        # nonprofits sit in the three IN counties, especially South Bend/Elkhart/Mishawaka)
 
     def run(self) -> dict:
         ok, note = True, ""
