@@ -35,7 +35,7 @@ def main() -> list[dict]:
         small_base_caveat = " (small prior-year base — a large percentage here can still be a small dollar move)" if pa and pa < 50000 else ""
         out.append(_c(
             candidate_id=f"scan-990-{ein}",
-            counties=[COUNTIES.get(fips, fips)],
+            counties=[COUNTIES.get(fips, fips)], entity_name=name.strip(), entity_county_fips=fips, event_date=f"{ly}-01-01",
             headline=f"{name.title()} total assets {'up' if chg > 0 else 'down'} {abs(chg):.0%} ({py}→{ly})",
             why_it_might_matter=f"{name.title()} ({city.title()}) reported total assets of ${la:,.0f} in its {ly} Form 990, versus ${pa:,.0f} in {py} — a {chg:+.0%} change{small_base_caveat}. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
             axis_a=["ownership", "distribution"], axis_b=["large" if abs(chg) >= 1.0 else "unmeasured"],

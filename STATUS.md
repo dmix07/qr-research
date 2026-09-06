@@ -49,8 +49,8 @@ Building the event sources per Dustin's overnight brief, in order, committing af
 | 4 | IEDC transparency portal | **dropped** | Real data API found (`POST /contract/search`) but blocked by bot management (405 on every POST); no bulk CSV on the site. Terms-of-use not locatable either. See QUESTIONS.md #8. |
 | 5 | USASpending | **built** — `usaspending` | 669 events locally ($250k+ floor, 24mo, grants+contracts; 0 loans) — high volume (AM General, Notre Dame, Honeywell, MDOT formula grants); flagged as a screening-cost/review-load thing to watch |
 | 6 | IRS 990 (ProPublica + IRS bulk EO file) | **built** — `irs_990` | 1,282 nonprofits matched (Berrien/Cass only, local test), 407 with 2 years of filing data, ~90 clearing the >25% asset-change threshold; adds `nonprofit` entities |
-| 7 | Michigan Treasury local-unit finance (stretch) | not started | |
-| — | Accumulation candidates (entity matching across sources 1–3) | not started | |
+| 7 | Michigan Treasury local-unit finance (stretch) | **not built** | `michigan.gov` returned 403 to a plain identified request (no bulk file located before hitting that wall) — stretch goal, recorded rather than pursued further given required sources 1–6 and accumulation still ahead |
+| — | Accumulation candidates (entity matching across sources 1–3) | **built** — `qr_research/scanner/accumulate.py` | 0 in local test (the six sources' local test data came from separate isolated runs with no real overlapping entities to find — logic verified with 3 synthetic unit tests instead; a real cross-source match is only likely once all sources run together against the same live data on the server) |
 
 ## Needs Dustin (see QUESTIONS.md)
 Create the DigitalOcean VM · Airtable token · optional free Census key. Then one Claude Code session deploys it. Nothing else.

@@ -28,7 +28,7 @@ def main() -> list[dict]:
         coverage = "Indiana counties only" if state == "IN" else "Michigan counties only (Berrien/Cass)"
         out.append(_c(
             candidate_id=f"scan-formd-{accession}",
-            counties=counties,
+            counties=counties, entity_name=name, entity_county_fips=fips_list[0] if fips_list else "", event_date=file_date,
             coverage_note=coverage,
             headline=f"{name} filed a Form D ({city}, {state}), {file_date}",
             why_it_might_matter=f"A private securities offering registered with an issuer address in {city}, {state} — new capital being raised by an entity based in the region. Filing items: {items or 'none listed'}. Worth a look at who's behind it and what the raise is for; Form D itself doesn't disclose amount reliably (issuers often decline to specify).",

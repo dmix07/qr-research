@@ -129,7 +129,7 @@ def scanner_changes(conn: sqlite3.Connection, since: str = "2020-01-01") -> list
     for cert, name, city, state, ended, hc, fips in rows:
         out.append(_c(
             feed="scanner", candidate_type="event", candidate_id=f"scan-fdic-inst-ended-{cert}",
-            counties=[COUNTIES[fips]],
+            counties=[COUNTIES[fips]], entity_name=name.strip(), entity_county_fips=fips, event_date=ended,
             headline=f"{name.strip()} ({city}, {state}) ceased as an independent institution on {ended}",
             question="", measure="", method="",
             why_it_might_matter=f"A locally headquartered institution left the record; its deposits now sit with an acquirer. One fewer of the '{hq_institutions_by_year(conn)[2025]} that remain' in #001. Holding company at end: {hc or 'none listed'}.",

@@ -33,7 +33,7 @@ def main() -> list[dict]:
         coverage = "County match is text-search-derived (no verified debtor address without a CourtListener API key — see QUESTIONS.md)."
         out.append(_c(
             candidate_id=f"scan-bk-{docket_id}",
-            counties=counties, coverage_note=coverage,
+            counties=counties, entity_name=name, entity_county_fips=fips_list[0] if fips_list else "", event_date=date_filed, coverage_note=coverage,
             headline=f"{name} filed {CHAPTER_LABEL.get(chapter, 'Chapter ' + chapter)}, {date_filed}",
             why_it_might_matter=f"A business bankruptcy filing ({docket_number}, {'N.D. Indiana' if court_id == 'innb' else 'W.D. Michigan'}) with a debtor name/location matching the region. Chapter {chapter} filings are a leading indicator of local business distress — worth checking who the entity is, what it owes, and whether it's connected to any other candidate on file.",
             axis_a=["control", "duration"], axis_b=["unmeasured"], function=["Resilience"], stock_or_flow="flow",

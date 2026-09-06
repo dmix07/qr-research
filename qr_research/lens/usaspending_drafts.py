@@ -29,7 +29,7 @@ def main() -> list[dict]:
         label = GROUP_LABEL.get(group, group)
         out.append(_c(
             candidate_id=f"scan-usas-{key.split(':', 2)[-1].replace(' ', '_')[:60]}",
-            counties=[COUNTIES.get(fips, fips)],
+            counties=[COUNTIES.get(fips, fips)], entity_name=recipient.strip(), entity_county_fips=fips, event_date=start_date,
             headline=f"{recipient.title()} received a ${amount:,.0f} federal {label} ({agency})",
             why_it_might_matter=f"A federal {label} of ${amount:,.0f} to {recipient.title()} for work performed in {COUNTIES.get(fips, fips)}, from {agency}{' (' + award_type + ')' if award_type else ''}. {desc or 'No description on file.'} Worth checking whether this is new capacity, a research grant, or infrastructure work — and whether the recipient shows up elsewhere (Form D, bankruptcy, Gateway ownership).",
             axis_a=["source", "destination"], axis_b=["large" if amount >= 5_000_000 else "unmeasured"],

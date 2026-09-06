@@ -58,7 +58,7 @@ def tif_fund_events(conn: sqlite3.Connection) -> list[dict]:
         if (fips, unit, fund) not in prev:
             out.append(_c(
                 candidate_id=f"scan-gwf-newtif-{fips}-{unit}-{fund}-{latest}",
-                counties=[COUNTIES[fips]],
+                counties=[COUNTIES[fips]], entity_name=name.strip(), entity_county_fips=fips, event_date=f"{latest}-01-01",
                 headline=f"New TIF/redevelopment budget line: {name.strip()} ({latest})",
                 why_it_might_matter=f"A TIF- or redevelopment-tagged fund appears in {latest}'s budget for {name.strip()} that wasn't in {prior}'s — either a new TIF district or a new fund inside an existing one. Adopted budget: ${total or 0:,.0f}; tax levy: ${taxes or 0:,.0f}. Worth confirming against the unit's TIF district records (not available as a separate Gateway dataset — see DECISIONS.md).",
                 axis_a=["destination", "type"], axis_b=["unmeasured"], function=["Regeneration"], stock_or_flow="flow",
@@ -71,7 +71,7 @@ def tif_fund_events(conn: sqlite3.Connection) -> list[dict]:
             if chg is not None and abs(chg) >= THRESHOLD:
                 out.append(_c(
                     candidate_id=f"scan-gwf-tifchange-{fips}-{unit}-{fund}-{label.replace(' ', '')}-{latest}",
-                    counties=[COUNTIES[fips]],
+                    counties=[COUNTIES[fips]], entity_name=name.strip(), entity_county_fips=fips, event_date=f"{latest}-01-01",
                     headline=f"{name.strip()} {label} {'up' if chg > 0 else 'down'} {abs(chg):.0%} ({prior}→{latest})",
                     why_it_might_matter=f"TIF/redevelopment fund '{name.strip()}' {label} moved {chg:+.0%} year over year (${o:,.0f} → ${n:,.0f}). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
                     axis_a=["destination", "distribution"], axis_b=["large" if abs(chg) >= 0.5 else "unmeasured"],
@@ -92,7 +92,7 @@ def debt_events(conn: sqlite3.Connection) -> list[dict]:
         desc = p["debt_description"].strip()
         out.append(_c(
             candidate_id=f"scan-gwf-newdebt-{key.split(':', 1)[1]}",
-            counties=[COUNTIES[fips]],
+            counties=[COUNTIES[fips]], entity_name=p['unit_name'].strip(), entity_county_fips=fips, event_date=f"{p['year']}-01-01",
             headline=f"New debt on record: {p['unit_name'].strip()} — {desc}",
             why_it_might_matter=f"{p['unit_name'].strip()} reported a debt instrument not present in the prior Annual Financial Report: {desc}. Outstanding balance ${float(p.get('end_principal_bal') or 0):,.0f}.",
             axis_a=["source", "type"], axis_b=["connected"] if "TIF" in desc.upper() or "REDEVELOPMENT" in desc.upper() else ["unmeasured"],
