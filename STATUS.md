@@ -46,7 +46,7 @@ Building the event sources per Dustin's overnight brief, in order, committing af
 | 1 | Indiana Gateway local finance (Budget + AFR Debt) | **built** — `in_gateway_finance` | 16 events (TIF-fund changes/new funds); debt events start on run 2 |
 | 2 | SEC EDGAR Form D | **built** — `sec_form_d` | 7 events, all Michigan-side (Berrien/Cass) in local test — no IN Gateway parcel data available on this laptop to exercise the Indiana side, which will run for real on the server |
 | 3 | Bankruptcy (CourtListener RECAP) | **built** — `bankruptcy` | 3 events (all MI-side locally, same laptop limitation as #2) — county tagging is text-search-derived, not address-verified (no API key; see QUESTIONS.md) |
-| 4 | IEDC transparency portal | not started | |
+| 4 | IEDC transparency portal | **dropped** | Real data API found (`POST /contract/search`) but blocked by bot management (405 on every POST); no bulk CSV on the site. Terms-of-use not locatable either. See QUESTIONS.md #8. |
 | 5 | USASpending | not started | |
 | 6 | IRS 990 (ProPublica) | not started | |
 | 7 | Michigan Treasury local-unit finance (stretch) | not started | |
