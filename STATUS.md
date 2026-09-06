@@ -27,14 +27,30 @@ This is the build ledger. Read it as: which parts of the spec exist, which are s
 | Lens skill | I §5 | **built** as `skills/qr-lens/SKILL.md` | three inputs, recipe-only rule, house format, kill rules |
 | Lens baseline refresh | I §5.5 | partial | `lens/reproduce.py` recomputes #001/#002; not yet generalized to "every published measure" |
 | Airtable delivery | II §1 | built (REST) | Base `appBVtPxGG9DJpnxL` created; record writes await token on the VM (or CSV import) |
-| Sources | II §3 | 3 of ~25 | fdic, census, in_gateway_parcels |
+| Sources | II §3 | 4 of ~25 | fdic, census, in_gateway_parcels, in_gateway_finance |
+| Scanner Phase 2 (event sources) | overnight build, Sept 6 2026 | in progress — see below | |
 
 ## Sources: built / next / blocked
 
-- **Built:** FDIC institutions + SOD (1934–/1994–). Census CBP (2023), BDS (1978–2023). Indiana Gateway PARCEL files (3 IN counties, 236k parcels, 2025 assessment) — reproduces #006.
-- **Next in order:** Indiana Gateway local-finance files (budgets, debt, TIF), SEC Form D, SBA 7(a)/504 + PPP, FFIEC CRA, IRS 990 (ProPublica), bankruptcy RSS, USASpending, DOL Form 5500, Fed data.
+- **Built:** FDIC institutions + SOD (1934–/1994–). Census CBP (2023), BDS (1978–2023). Indiana Gateway PARCEL files (3 IN counties, 236k parcels, 2025 assessment) — reproduces #006. Indiana Gateway local finance — Budget Data + Annual Financial Report Debt (`in_gateway_finance`; Scanner only) — see Scanner Phase 2 below.
+- **Next in order:** SEC Form D, bankruptcy (CourtListener), IEDC transparency, USASpending, IRS 990 (ProPublica), SBA 7(a)/504 + PPP, FFIEC CRA, DOL Form 5500, Fed data.
 - **Needs a free key:** Census ACS (`CENSUS_API_KEY`).
 - **Terms check before building:** public-notice aggregators, IN/MI SOS portals, BS&A county portals.
+
+## Scanner Phase 2 (overnight build, Sept 6 2026)
+
+Building the event sources per Dustin's overnight brief, in order, committing after each passes `make test` + a local fetch. Updated as each source finishes.
+
+| # | Source | State | Candidates (local test fetch) |
+|---|---|---|---|
+| 1 | Indiana Gateway local finance (Budget + AFR Debt) | **built** — `in_gateway_finance` | 16 events (TIF-fund changes/new funds); debt events start on run 2 |
+| 2 | SEC EDGAR Form D | not started | |
+| 3 | Bankruptcy (CourtListener RECAP) | not started | |
+| 4 | IEDC transparency portal | not started | |
+| 5 | USASpending | not started | |
+| 6 | IRS 990 (ProPublica) | not started | |
+| 7 | Michigan Treasury local-unit finance (stretch) | not started | |
+| — | Accumulation candidates (entity matching across sources 1–3) | not started | |
 
 ## Needs Dustin (see QUESTIONS.md)
 Create the DigitalOcean VM · Airtable token · optional free Census key. Then one Claude Code session deploys it. Nothing else.

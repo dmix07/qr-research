@@ -1,0 +1,498 @@
+[
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509479+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0000-9532-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "ELKHART COUNTY total budget up 1171% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'ELKHART COUNTY' total budget moved +1171% year over year ($9,060 \u2192 $115,130). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509699+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0000-9534-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "ELKHART COUNTY total budget down 41% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'ELKHART COUNTY' total budget moved -41% year over year ($520,600 \u2192 $307,800). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509704+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0000-9535-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "ELKHART COUNTY total budget up 40% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'ELKHART COUNTY' total budget moved +40% year over year ($607,100 \u2192 $852,800). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509710+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0000-9538-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "ELKHART COUNTY total budget up 811% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'ELKHART COUNTY' total budget moved +811% year over year ($61,100 \u2192 $556,800). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509716+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0305-9513-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "GOSHEN CIVIL CITY total budget down 65% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'GOSHEN CIVIL CITY' total budget moved -65% year over year ($20,065,890 \u2192 $7,087,000). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509720+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0305-9521-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "GOSHEN CIVIL CITY total budget down 58% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'GOSHEN CIVIL CITY' total budget moved -58% year over year ($4,075,000 \u2192 $1,724,000). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509724+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-newtif-18039-0305-9527-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "New TIF/redevelopment budget line: GOSHEN CIVIL CITY (2026)",
+  "why_it_might_matter": "A TIF- or redevelopment-tagged fund appears in 2026's budget for GOSHEN CIVIL CITY that wasn't in 2025's \u2014 either a new TIF district or a new fund inside an existing one. Adopted budget: $900,000; tax levy: $0. Worth confirming against the unit's TIF district records (not available as a separate Gateway dataset \u2014 see DECISIONS.md).",
+  "axis_a": [
+   "destination",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509729+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0444-9503-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "NAPPANEE CIVIL CITY total budget up 88% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'NAPPANEE CIVIL CITY' total budget moved +88% year over year ($2,266,467 \u2192 $4,257,582). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509733+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0599-9501-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "BRISTOL CIVIL TOWN total budget down 48% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'BRISTOL CIVIL TOWN' total budget moved -48% year over year ($2,010,750 \u2192 $1,035,714). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509738+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0599-9507-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "BRISTOL CIVIL TOWN total budget up 42% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'BRISTOL CIVIL TOWN' total budget moved +42% year over year ($701,000 \u2192 $998,000). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509744+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0599-9508-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "BRISTOL CIVIL TOWN total budget down 100% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'BRISTOL CIVIL TOWN' total budget moved -100% year over year ($200,000 \u2192 $0). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509748+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0599-9509-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "BRISTOL CIVIL TOWN total budget down 100% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'BRISTOL CIVIL TOWN' total budget moved -100% year over year ($200,000 \u2192 $0). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509751+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18039-0599-9511-totalbudget-2026",
+  "counties": [
+   "Elkhart IN"
+  ],
+  "headline": "BRISTOL CIVIL TOWN total budget down 100% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'BRISTOL CIVIL TOWN' total budget moved -100% year over year ($15,000 \u2192 $0). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509757+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18099-0412-9525-totalbudget-2026",
+  "counties": [
+   "Marshall IN"
+  ],
+  "headline": "PLYMOUTH CIVIL CITY total budget down 23% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'PLYMOUTH CIVIL CITY' total budget moved -23% year over year ($488,300 \u2192 $375,920). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509762+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-tifchange-18099-0412-9529-totalbudget-2026",
+  "counties": [
+   "Marshall IN"
+  ],
+  "headline": "PLYMOUTH CIVIL CITY total budget up 186% (2025\u21922026)",
+  "why_it_might_matter": "TIF/redevelopment fund 'PLYMOUTH CIVIL CITY' total budget moved +186% year over year ($1,180,000 \u2192 $3,369,850). A swing this size in a redevelopment fund usually means a new project, a bond draw, or a district winding down.",
+  "axis_a": [
+   "destination",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "in_gateway_finance",
+  "coverage_note": "Indiana counties only (Berrien, Cass not covered \u2014 Michigan Treasury local-unit finance is a separate, unbuilt source)",
+  "created_at": "2026-09-06T02:53:19.509765+00:00",
+  "status": "new",
+  "evidence_urls": [
+   "https://gateway.ifionline.org/public/download.aspx"
+  ],
+  "recipe_ids": [],
+  "candidate_id": "scan-gwf-newtif-18099-0412-9530-2026",
+  "counties": [
+   "Marshall IN"
+  ],
+  "headline": "New TIF/redevelopment budget line: PLYMOUTH CIVIL CITY (2026)",
+  "why_it_might_matter": "A TIF- or redevelopment-tagged fund appears in 2026's budget for PLYMOUTH CIVIL CITY that wasn't in 2025's \u2014 either a new TIF district or a new fund inside an existing one. Adopted budget: $0; tax levy: $0. Worth confirming against the unit's TIF district records (not available as a separate Gateway dataset \u2014 see DECISIONS.md).",
+  "axis_a": [
+   "destination",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Regeneration"
+  ],
+  "stock_or_flow": "flow",
+  "confidence": "soft",
+  "screen_result": "surface"
+ }
+]
