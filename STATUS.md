@@ -44,7 +44,7 @@ Building the event sources per Dustin's overnight brief, in order, committing af
 | # | Source | State | Candidates (local test fetch) |
 |---|---|---|---|
 | 1 | Indiana Gateway local finance (Budget + AFR Debt) | **built** — `in_gateway_finance` | 16 events (TIF-fund changes/new funds); debt events start on run 2 |
-| 2 | SEC EDGAR Form D | not started | |
+| 2 | SEC EDGAR Form D | **built** — `sec_form_d` | 7 events, all Michigan-side (Berrien/Cass) in local test — no IN Gateway parcel data available on this laptop to exercise the Indiana side, which will run for real on the server |
 | 3 | Bankruptcy (CourtListener RECAP) | not started | |
 | 4 | IEDC transparency portal | not started | |
 | 5 | USASpending | not started | |

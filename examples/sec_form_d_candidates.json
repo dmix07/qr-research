@@ -1,0 +1,221 @@
+[
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "sec_form_d",
+  "created_at": "2026-09-06T03:05:52.157972+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-formd-0002138455-26-000001",
+  "counties": [
+   "Berrien MI"
+  ],
+  "coverage_note": "Michigan counties only (Berrien/Cass)",
+  "headline": "TacticalMind AI, LLC filed a Form D (SAINT JOSEPH, MI), 2026-06-09",
+  "why_it_might_matter": "A private securities offering registered with an issuer address in SAINT JOSEPH, MI \u2014 new capital being raised by an entity based in the region. Filing items: 06B. Worth a look at who's behind it and what the raise is for; Form D itself doesn't disclose amount reliably (issuers often decline to specify).",
+  "axis_a": [
+   "source",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Circulation"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002138455&type=D"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "sec_form_d",
+  "created_at": "2026-09-06T03:05:52.158297+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-formd-0002136757-26-000001",
+  "counties": [
+   "Berrien MI"
+  ],
+  "coverage_note": "Michigan counties only (Berrien/Cass)",
+  "headline": "Kingsbury Pictures LLC filed a Form D (SAWYER, MI), 2026-05-27",
+  "why_it_might_matter": "A private securities offering registered with an issuer address in SAWYER, MI \u2014 new capital being raised by an entity based in the region. Filing items: 06B. Worth a look at who's behind it and what the raise is for; Form D itself doesn't disclose amount reliably (issuers often decline to specify).",
+  "axis_a": [
+   "source",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Circulation"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136757&type=D"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "sec_form_d",
+  "created_at": "2026-09-06T03:05:52.158303+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-formd-0002099398-25-000001",
+  "counties": [
+   "Berrien MI",
+   "Cass MI"
+  ],
+  "coverage_note": "Michigan counties only (Berrien/Cass)",
+  "headline": "Wolverine Insurance Co filed a Form D (DOWAGIAC, MI), 2025-12-04",
+  "why_it_might_matter": "A private securities offering registered with an issuer address in DOWAGIAC, MI \u2014 new capital being raised by an entity based in the region. Filing items: 04. Worth a look at who's behind it and what the raise is for; Form D itself doesn't disclose amount reliably (issuers often decline to specify).",
+  "axis_a": [
+   "source",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Circulation"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002099398&type=D"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "sec_form_d",
+  "created_at": "2026-09-06T03:05:52.158306+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-formd-0002081976-25-000001",
+  "counties": [
+   "Berrien MI"
+  ],
+  "coverage_note": "Michigan counties only (Berrien/Cass)",
+  "headline": "SR AA Hub Church II, LLC filed a Form D (GRAND BEACH, MI), 2025-11-21",
+  "why_it_might_matter": "A private securities offering registered with an issuer address in GRAND BEACH, MI \u2014 new capital being raised by an entity based in the region. Filing items: 06B. Worth a look at who's behind it and what the raise is for; Form D itself doesn't disclose amount reliably (issuers often decline to specify).",
+  "axis_a": [
+   "source",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Circulation"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081976&type=D"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "sec_form_d",
+  "created_at": "2026-09-06T03:05:52.158310+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-formd-0002097362-25-000001",
+  "counties": [
+   "Berrien MI",
+   "Cass MI"
+  ],
+  "coverage_note": "Michigan counties only (Berrien/Cass)",
+  "headline": "K2 Capital LSV V Fund, LLC filed a Form D (DOWAGIAC, MI), 2025-11-20",
+  "why_it_might_matter": "A private securities offering registered with an issuer address in DOWAGIAC, MI \u2014 new capital being raised by an entity based in the region. Filing items: 06B,3C,3C.7. Worth a look at who's behind it and what the raise is for; Form D itself doesn't disclose amount reliably (issuers often decline to specify).",
+  "axis_a": [
+   "source",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Circulation"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002097362&type=D"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "sec_form_d",
+  "created_at": "2026-09-06T03:05:52.158312+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-formd-0002087116-25-000001",
+  "counties": [
+   "Cass MI"
+  ],
+  "coverage_note": "Michigan counties only (Berrien/Cass)",
+  "headline": "Spring Rock Venture Partners VI LP filed a Form D (THREE RIVERS, MI), 2025-10-02",
+  "why_it_might_matter": "A private securities offering registered with an issuer address in THREE RIVERS, MI \u2014 new capital being raised by an entity based in the region. Filing items: 06B. Worth a look at who's behind it and what the raise is for; Form D itself doesn't disclose amount reliably (issuers often decline to specify).",
+  "axis_a": [
+   "source",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Circulation"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002087116&type=D"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "sec_form_d",
+  "created_at": "2026-09-06T03:05:52.158315+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-formd-0002057034-25-000001",
+  "counties": [
+   "Berrien MI"
+  ],
+  "coverage_note": "Michigan counties only (Berrien/Cass)",
+  "headline": "Redbud Roots National, LLC filed a Form D (BUCHANAN, MI), 2025-02-28",
+  "why_it_might_matter": "A private securities offering registered with an issuer address in BUCHANAN, MI \u2014 new capital being raised by an entity based in the region. Filing items: 06B. Worth a look at who's behind it and what the raise is for; Form D itself doesn't disclose amount reliably (issuers often decline to specify).",
+  "axis_a": [
+   "source",
+   "type"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Circulation"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002057034&type=D"
+  ],
+  "confidence": "solid",
+  "screen_result": "surface"
+ }
+]
