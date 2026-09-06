@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 from pathlib import Path
 
 import requests
@@ -43,10 +44,18 @@ def llm_stage(c: dict) -> dict:
         "system": PROMPT + "\n\n# Few-shot examples\n" + FEWSHOT,
         "messages": [{"role": "user", "content": json.dumps({k: v for k, v in c.items() if k not in ("axis_a", "axis_b", "function", "screen_result")})}],
     }
-    r = requests.post("https://api.anthropic.com/v1/messages", headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"}, json=body, timeout=90)
-    r.raise_for_status()
-    text = "".join(b.get("text", "") for b in r.json()["content"])
-    return json.loads(text.strip().strip("`").removeprefix("json").strip())
+    try:
+        r = requests.post("https://api.anthropic.com/v1/messages", headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"}, json=body, timeout=90)
+        r.raise_for_status()
+        text = "".join(b.get("text", "") for b in r.json()["content"])
+        return json.loads(text.strip().strip("`").removeprefix("json").strip())
+    except Exception as e:  # noqa: BLE001
+        # A single bad/failed call (billing, rate limit, malformed response) must not take
+        # down the whole batch — fall back to dry mode for this one candidate, same as the
+        # no-key case, and keep going. Confirmed live: an exhausted Anthropic credit balance
+        # otherwise crashed mid-batch and left every later file in examples/ unscreened.
+        print(f"screen: LLM stage failed for {c.get('candidate_id', '?')}, keeping generator tags: {e!r}", file=sys.stderr)
+        return {}
 
 
 def screen(c: dict) -> dict:
@@ -61,7 +70,6 @@ def screen(c: dict) -> dict:
 
 
 if __name__ == "__main__":
-    import sys
     cands = json.load(open(sys.argv[1]))
     res = [screen(c) for c in cands]
     json.dump(res, open(sys.argv[1], "w"), indent=1)
