@@ -1,0 +1,95 @@
+[
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "bankruptcy",
+  "created_at": "2026-09-06T03:10:29.959329+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-bk-72518421",
+  "counties": [
+   "Berrien MI"
+  ],
+  "coverage_note": "County match is text-search-derived (no verified debtor address without a CourtListener API key \u2014 see QUESTIONS.md).",
+  "headline": "W Legacy Holdings, Inc. filed Chapter 7 (liquidation), 2026-03-19",
+  "why_it_might_matter": "A business bankruptcy filing (26-00870, W.D. Michigan) with a debtor name/location matching the region. Chapter 7 filings are a leading indicator of local business distress \u2014 worth checking who the entity is, what it owes, and whether it's connected to any other candidate on file.",
+  "axis_a": [
+   "control",
+   "duration"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Resilience"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.courtlistener.com/docket/72518421/w-legacy-holdings-inc/"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "bankruptcy",
+  "created_at": "2026-09-06T03:10:29.959443+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-bk-72328957",
+  "counties": [
+   "Berrien MI"
+  ],
+  "coverage_note": "County match is text-search-derived (no verified debtor address without a CourtListener API key \u2014 see QUESTIONS.md).",
+  "headline": "Lakeview Vineyards, LLC filed Chapter 12 (family farmer/fisherman), 2026-02-25",
+  "why_it_might_matter": "A business bankruptcy filing (26-00570, W.D. Michigan) with a debtor name/location matching the region. Chapter 12 filings are a leading indicator of local business distress \u2014 worth checking who the entity is, what it owes, and whether it's connected to any other candidate on file.",
+  "axis_a": [
+   "control",
+   "duration"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Resilience"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.courtlistener.com/docket/72328957/lakeview-vineyards-llc/"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "bankruptcy",
+  "created_at": "2026-09-06T03:10:29.959447+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-bk-72147483",
+  "counties": [
+   "Berrien MI"
+  ],
+  "coverage_note": "County match is text-search-derived (no verified debtor address without a CourtListener API key \u2014 see QUESTIONS.md).",
+  "headline": "Arrowhead Vineyards, LLC filed Chapter 12 (family farmer/fisherman), 2026-01-15",
+  "why_it_might_matter": "A business bankruptcy filing (26-00121, W.D. Michigan) with a debtor name/location matching the region. Chapter 12 filings are a leading indicator of local business distress \u2014 worth checking who the entity is, what it owes, and whether it's connected to any other candidate on file.",
+  "axis_a": [
+   "control",
+   "duration"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Resilience"
+  ],
+  "stock_or_flow": "flow",
+  "evidence_urls": [
+   "https://www.courtlistener.com/docket/72147483/arrowhead-vineyards-llc/"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ }
+]

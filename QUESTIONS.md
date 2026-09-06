@@ -16,5 +16,6 @@
    - Confirmed: you've added a `conditionalGroup` node to the digest with the condition `length(records) > 0`, but its branch has an empty node list — so as you said, it's present but does nothing yet (the `sendEmail` step still runs unconditionally before this node is reached). Recorded per your instruction: **left as-is, deliberately inactive**, so you can watch the zero-record email for a few weeks before wiring the condition to actually gate the send.
 5. **Screener key.** Without `SCREENER_API_KEY` the LLM stage is skipped and candidates keep their generator tags.
 6. **Census key.** Free, instant: https://api.census.gov/data/key_signup.html. Unblocks ACS (#005/#006 inputs).
+7. **CourtListener key (Scanner Phase 2, source 3 — bankruptcy).** Free account at https://www.courtlistener.com/register/, then an API token under your profile. Without it, `bankruptcy.py` only has anonymous access to CourtListener's full-text search, which can tell "does this filing mention the region" but not "is the debtor's actual address in the region" (the `dockets`/`parties` endpoints that would confirm that both return 401 without a key). Every bankruptcy candidate is caveated as text-search-derived until this key exists; set `COURTLISTENER_API_KEY` in `.env` and I'll wire in address verification next pass.
 
 Provisional choices made for each are in DECISIONS.md.

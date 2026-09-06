@@ -5,9 +5,10 @@ from qr_research.connectors.census import CensusConnector
 from qr_research.connectors.gateway import GatewayConnector
 from qr_research.connectors.gateway_finance import GatewayFinanceConnector
 from qr_research.connectors.sec_form_d import SECFormDConnector
+from qr_research.connectors.bankruptcy import BankruptcyConnector
 from qr_research.scanner.diff import detect_changes
 
-CONNECTORS = {c.source_id: c for c in (FDICConnector(), CensusConnector(), GatewayConnector(), GatewayFinanceConnector(), SECFormDConnector())}
+CONNECTORS = {c.source_id: c for c in (FDICConnector(), CensusConnector(), GatewayConnector(), GatewayFinanceConnector(), SECFormDConnector(), BankruptcyConnector())}
 
 if __name__ == "__main__":
     wanted = sys.argv[1:] or list(CONNECTORS)
