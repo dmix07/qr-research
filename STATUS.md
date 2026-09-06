@@ -48,7 +48,7 @@ Building the event sources per Dustin's overnight brief, in order, committing af
 | 3 | Bankruptcy (CourtListener RECAP) | **built** — `bankruptcy` | 3 events (all MI-side locally, same laptop limitation as #2) — county tagging is text-search-derived, not address-verified (no API key; see QUESTIONS.md) |
 | 4 | IEDC transparency portal | **dropped** | Real data API found (`POST /contract/search`) but blocked by bot management (405 on every POST); no bulk CSV on the site. Terms-of-use not locatable either. See QUESTIONS.md #8. |
 | 5 | USASpending | **built** — `usaspending` | 669 events locally ($250k+ floor, 24mo, grants+contracts; 0 loans) — high volume (AM General, Notre Dame, Honeywell, MDOT formula grants); flagged as a screening-cost/review-load thing to watch |
-| 6 | IRS 990 (ProPublica) | not started | |
+| 6 | IRS 990 (ProPublica + IRS bulk EO file) | **built** — `irs_990` | 1,282 nonprofits matched (Berrien/Cass only, local test), 407 with 2 years of filing data, ~90 clearing the >25% asset-change threshold; adds `nonprofit` entities |
 | 7 | Michigan Treasury local-unit finance (stretch) | not started | |
 | — | Accumulation candidates (entity matching across sources 1–3) | not started | |
 

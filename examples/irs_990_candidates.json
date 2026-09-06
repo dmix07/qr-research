@@ -1,0 +1,3332 @@
+[
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680041+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-262267694",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Life Skills Foundation total assets up 22962200% (2019\u21922020)",
+  "why_it_might_matter": "Life Skills Foundation (Cassopolis) reported total assets of $229,623 in its 2020 Form 990, versus $1 in 2019 \u2014 a +22962200% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/262267694"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680154+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-842276226",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Summit Financial Wellness total assets up 397800% (2018\u21922022)",
+  "why_it_might_matter": "Summit Financial Wellness (Berrien Sprgs) reported total assets of $3,979 in its 2022 Form 990, versus $1 in 2018 \u2014 a +397800% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/842276226"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680162+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-452692985",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Walther Community Foundation total assets up 5002% (2022\u21922023)",
+  "why_it_might_matter": "Walther Community Foundation (Three Rivers) reported total assets of $20,410 in its 2023 Form 990, versus $400 in 2022 \u2014 a +5002% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/452692985"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680167+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-611981063",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Remarkable Inc total assets up 1059% (2022\u21922023)",
+  "why_it_might_matter": "Remarkable Inc (Niles) reported total assets of $3,281 in its 2023 Form 990, versus $283 in 2022 \u2014 a +1059% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/611981063"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680215+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-843239272",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Michigan Manufacturing And Technology Association total assets up 624% (2022\u21922023)",
+  "why_it_might_matter": "Michigan Manufacturing And Technology Association (Benton Harbor) reported total assets of $1,224,643 in its 2023 Form 990, versus $169,084 in 2022 \u2014 a +624% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/843239272"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680220+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-471361118",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "James 127 Mission Friends total assets up 492% (2022\u21922023)",
+  "why_it_might_matter": "James 127 Mission Friends (Harbert) reported total assets of $33,093 in its 2023 Form 990, versus $5,592 in 2022 \u2014 a +492% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/471361118"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680224+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-815274593",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Coming Out Ministries Incorporated total assets up 491% (2022\u21922023)",
+  "why_it_might_matter": "Coming Out Ministries Incorporated (Berrien Sprgs) reported total assets of $322,300 in its 2023 Form 990, versus $54,525 in 2022 \u2014 a +491% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/815274593"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680229+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-844165870",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Cw Tech Robotarians total assets up 215% (2021\u21922022)",
+  "why_it_might_matter": "Cw Tech Robotarians (Saint Joseph) reported total assets of $17,338 in its 2022 Form 990, versus $5,500 in 2021 \u2014 a +215% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/844165870"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680233+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-261484619",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Ferry Street Resource Center Inc total assets up 182% (2023\u21922024)",
+  "why_it_might_matter": "Ferry Street Resource Center Inc (Niles) reported total assets of $381,275 in its 2024 Form 990, versus $135,112 in 2023 \u2014 a +182% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/261484619"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680238+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-473644248",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Mid-States Rodeo Association Incorporated total assets up 169% (2022\u21922023)",
+  "why_it_might_matter": "Mid-States Rodeo Association Incorporated (Vandalia) reported total assets of $102,118 in its 2023 Form 990, versus $37,972 in 2022 \u2014 a +169% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/473644248"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680242+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-320190483",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "The Masters Builders Inc total assets up 167% (2022\u21922023)",
+  "why_it_might_matter": "The Masters Builders Inc (Berrien Sprgs) reported total assets of $467,671 in its 2023 Form 990, versus $175,451 in 2022 \u2014 a +167% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/320190483"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680246+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-843611389",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Michiana Family Center total assets up 152% (2023\u21922024)",
+  "why_it_might_matter": "Michiana Family Center (Edwardsburg) reported total assets of $32,425 in its 2024 Form 990, versus $12,869 in 2023 \u2014 a +152% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/843611389"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680250+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-800809341",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Paws Of Hope total assets up 144% (2022\u21922023)",
+  "why_it_might_matter": "Paws Of Hope (Stevensville) reported total assets of $108,906 in its 2023 Form 990, versus $44,551 in 2022 \u2014 a +144% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/800809341"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680254+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383102907",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "United Steelworkers total assets up 143% (2017\u21922023)",
+  "why_it_might_matter": "United Steelworkers (Three Rivers) reported total assets of $120,346 in its 2023 Form 990, versus $49,463 in 2017 \u2014 a +143% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383102907"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680258+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-371587727",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "He Reigns Rescue Ranch total assets up 143% (2015\u21922016)",
+  "why_it_might_matter": "He Reigns Rescue Ranch (Niles) reported total assets of $9,280 in its 2016 Form 990, versus $3,818 in 2015 \u2014 a +143% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/371587727"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680264+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-874079278",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Pow Educational Foundation Inc total assets up 134% (2023\u21922024)",
+  "why_it_might_matter": "Pow Educational Foundation Inc (Benton Harbor) reported total assets of $114,063 in its 2024 Form 990, versus $48,733 in 2023 \u2014 a +134% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/874079278"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680268+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382687207",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Hermitage Community Inc total assets up 116% (2022\u21922023)",
+  "why_it_might_matter": "Hermitage Community Inc (Three Rivers) reported total assets of $731,184 in its 2023 Form 990, versus $338,121 in 2022 \u2014 a +116% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382687207"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680272+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-843014339",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Our House Of The Way total assets up 112% (2022\u21922023)",
+  "why_it_might_matter": "Our House Of The Way (Saint Joseph) reported total assets of $11,564 in its 2023 Form 990, versus $5,446 in 2022 \u2014 a +112% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/843014339"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680278+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-863726495",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Learning Caring Sharing total assets up 103% (2022\u21922023)",
+  "why_it_might_matter": "Learning Caring Sharing (Benton Harbor) reported total assets of $21,009 in its 2023 Form 990, versus $10,326 in 2022 \u2014 a +103% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/863726495"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680282+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-270512215",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Mission Wings Corp total assets up 100% (2023\u21922024)",
+  "why_it_might_matter": "Mission Wings Corp (Niles) reported total assets of $3,474 in its 2024 Form 990, versus $1,736 in 2023 \u2014 a +100% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "large"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/270512215"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680286+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-237205742",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Berrien General Hospital Auxiliary total assets down 100% (2010\u21922011)",
+  "why_it_might_matter": "Berrien General Hospital Auxiliary (St Joseph) reported total assets of $1 in its 2011 Form 990, versus $50,353 in 2010 \u2014 a -100% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/237205742"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680290+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382066896",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Watervliet Recreation Council total assets down 100% (2021\u21922022)",
+  "why_it_might_matter": "Watervliet Recreation Council (Watervliet) reported total assets of $1 in its 2022 Form 990, versus $15,385 in 2021 \u2014 a -100% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382066896"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680294+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-851066087",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Jubilee Commission total assets down 98% (2022\u21922023)",
+  "why_it_might_matter": "Jubilee Commission (Three Rivers) reported total assets of $161 in its 2023 Form 990, versus $10,065 in 2022 \u2014 a -98% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/851066087"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680298+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-237206264",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Womens Service League total assets down 95% (2013\u21922018)",
+  "why_it_might_matter": "Womens Service League (Saint Joseph) reported total assets of $3,026 in its 2018 Form 990, versus $55,466 in 2013 \u2014 a -95% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/237206264"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680303+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-814514437",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Nuclear Generation Veteran And Retired Employees Association total assets up 93% (2022\u21922023)",
+  "why_it_might_matter": "Nuclear Generation Veteran And Retired Employees Association (Bridgman) reported total assets of $10,372 in its 2023 Form 990, versus $5,367 in 2022 \u2014 a +93% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/814514437"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680307+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-473332103",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Cass Area Artists total assets up 93% (2022\u21922023)",
+  "why_it_might_matter": "Cass Area Artists (Edwardsburg) reported total assets of $7,813 in its 2023 Form 990, versus $4,050 in 2022 \u2014 a +93% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/473332103"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680311+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382488360",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Edwardsburg Band Boosters total assets up 92% (2022\u21922023)",
+  "why_it_might_matter": "Edwardsburg Band Boosters (Edwardsburg) reported total assets of $25,062 in its 2023 Form 990, versus $13,062 in 2022 \u2014 a +92% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382488360"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680316+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-381255696",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Veterans Of Foreign Wars Dept Of Michigan total assets down 89% (2013\u21922014)",
+  "why_it_might_matter": "Veterans Of Foreign Wars Dept Of Michigan (Watervliet) reported total assets of $5,406 in its 2014 Form 990, versus $51,450 in 2013 \u2014 a -89% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/381255696"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680320+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-621386974",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Adventist Theological Society Inc total assets down 89% (2022\u21922023)",
+  "why_it_might_matter": "Adventist Theological Society Inc (Berrien Sprgs) reported total assets of $5,691 in its 2023 Form 990, versus $50,704 in 2022 \u2014 a -89% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/621386974"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680324+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382525200",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Greater Berrien Springs Parks & Recreation Department total assets up 86% (2021\u21922022)",
+  "why_it_might_matter": "Greater Berrien Springs Parks & Recreation Department (Berrien Sprgs) reported total assets of $86,655 in its 2022 Form 990, versus $46,588 in 2021 \u2014 a +86% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382525200"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680329+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-460641130",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "3 Mariposas Montessori Foundation Inc total assets down 82% (2023\u21922024)",
+  "why_it_might_matter": "3 Mariposas Montessori Foundation Inc (Dowagiac) reported total assets of $3,293 in its 2024 Form 990, versus $18,452 in 2023 \u2014 a -82% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/460641130"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680333+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-651277676",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Ranch Horse Association Of Michigan total assets up 81% (2020\u21922021)",
+  "why_it_might_matter": "Ranch Horse Association Of Michigan (Dowagiac) reported total assets of $115,208 in its 2021 Form 990, versus $63,646 in 2020 \u2014 a +81% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/651277676"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680337+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-881277064",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Berrien Forward total assets up 81% (2022\u21922023)",
+  "why_it_might_matter": "Berrien Forward (Benton Harbor) reported total assets of $104,161 in its 2023 Form 990, versus $57,636 in 2022 \u2014 a +81% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/881277064"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680344+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-812402039",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Pack Your Back total assets down 78% (2020\u21922021)",
+  "why_it_might_matter": "Pack Your Back (Coloma) reported total assets of $4,999 in its 2021 Form 990, versus $22,467 in 2020 \u2014 a -78% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/812402039"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680350+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-462595412",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Movement International total assets up 76% (2022\u21922023)",
+  "why_it_might_matter": "Movement International (Baroda) reported total assets of $37,564 in its 2023 Form 990, versus $21,286 in 2022 \u2014 a +76% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/462595412"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680354+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-455027554",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "School Of American Music total assets up 76% (2022\u21922023)",
+  "why_it_might_matter": "School Of American Music (Three Oaks) reported total assets of $620,265 in its 2023 Form 990, versus $351,661 in 2022 \u2014 a +76% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/455027554"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680360+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-386143926",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "American String Teachers Association Incorporated total assets up 75% (2023\u21922024)",
+  "why_it_might_matter": "American String Teachers Association Incorporated (Stevensville) reported total assets of $88,542 in its 2024 Form 990, versus $50,556 in 2023 \u2014 a +75% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/386143926"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680364+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-474307235",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "A Soldiers Journey Home total assets down 74% (2022\u21922023)",
+  "why_it_might_matter": "A Soldiers Journey Home (Buchanan) reported total assets of $26,323 in its 2023 Form 990, versus $101,989 in 2022 \u2014 a -74% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/474307235"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680368+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-204879633",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Niles Burn Run Inc total assets up 74% (2019\u21922020)",
+  "why_it_might_matter": "Niles Burn Run Inc (Niles) reported total assets of $5,878 in its 2020 Form 990, versus $3,377 in 2019 \u2014 a +74% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/204879633"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680372+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382138484",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Community Emergency Service total assets up 74% (2023\u21922024)",
+  "why_it_might_matter": "Community Emergency Service (Benton Harbor) reported total assets of $9,158,448 in its 2024 Form 990, versus $5,276,839 in 2023 \u2014 a +74% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382138484"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680376+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-842379686",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Three Societies Foundation total assets down 72% (2022\u21922023)",
+  "why_it_might_matter": "Three Societies Foundation (Three Rivers) reported total assets of $29,758 in its 2023 Form 990, versus $106,162 in 2022 \u2014 a -72% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/842379686"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680380+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383305933",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "John Schindler Ministries total assets up 71% (2022\u21922023)",
+  "why_it_might_matter": "John Schindler Ministries (Saint Joseph) reported total assets of $9,980 in its 2023 Form 990, versus $5,848 in 2022 \u2014 a +71% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383305933"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680384+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-465224352",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Michigan Sts Inc total assets down 65% (2021\u21922022)",
+  "why_it_might_matter": "Michigan Sts Inc (St Joseph) reported total assets of $7,723 in its 2022 Form 990, versus $22,088 in 2021 \u2014 a -65% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/465224352"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680388+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-821702993",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Revived Hearts Foundation total assets up 64% (2022\u21922023)",
+  "why_it_might_matter": "Revived Hearts Foundation (Niles) reported total assets of $462,638 in its 2023 Form 990, versus $281,898 in 2022 \u2014 a +64% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/821702993"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680392+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-471625280",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Real Help Foundation total assets up 64% (2019\u21922020)",
+  "why_it_might_matter": "Real Help Foundation (Saint Joseph) reported total assets of $32,392 in its 2020 Form 990, versus $19,769 in 2019 \u2014 a +64% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/471625280"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680396+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-853784631",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Benton Harbor Community Development Corporation total assets up 64% (2022\u21922023)",
+  "why_it_might_matter": "Benton Harbor Community Development Corporation (Benton Harbor) reported total assets of $289,788 in its 2023 Form 990, versus $177,131 in 2022 \u2014 a +64% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/853784631"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680400+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-813794647",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Parent Booster Usa Inc total assets down 63% (2023\u21922024)",
+  "why_it_might_matter": "Parent Booster Usa Inc (Edwardsburg) reported total assets of $32,508 in its 2024 Form 990, versus $88,681 in 2023 \u2014 a -63% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/813794647"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680404+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-260508299",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Uplifting Him Ministries Inc total assets down 62% (2023\u21922024)",
+  "why_it_might_matter": "Uplifting Him Ministries Inc (Berrien Sprgs) reported total assets of $13,428 in its 2024 Form 990, versus $35,019 in 2023 \u2014 a -62% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/260508299"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680408+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-271050319",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Mosaic Christian Community Development Association total assets up 61% (2022\u21922023)",
+  "why_it_might_matter": "Mosaic Christian Community Development Association (Benton Harbor) reported total assets of $1,035,145 in its 2023 Form 990, versus $643,289 in 2022 \u2014 a +61% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/271050319"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680412+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-386142472",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Veterans Of Foreign Wars Dept Of Michigan total assets down 59% (2022\u21922023)",
+  "why_it_might_matter": "Veterans Of Foreign Wars Dept Of Michigan (Dowagiac) reported total assets of $109,405 in its 2023 Form 990, versus $268,079 in 2022 \u2014 a -59% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/386142472"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680417+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-273920245",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Area Churches Together In One Network Inc total assets up 59% (2019\u21922020)",
+  "why_it_might_matter": "Area Churches Together In One Network Inc (Dowagiac) reported total assets of $144,537 in its 2020 Form 990, versus $90,894 in 2019 \u2014 a +59% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/273920245"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680423+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-521905101",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Long Haul Productions Inc total assets up 58% (2022\u21922023)",
+  "why_it_might_matter": "Long Haul Productions Inc (Three Oaks) reported total assets of $18,750 in its 2023 Form 990, versus $11,856 in 2022 \u2014 a +58% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/521905101"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680427+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-300306968",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "River Valley Band Boosters total assets up 57% (2011\u21922012)",
+  "why_it_might_matter": "River Valley Band Boosters (Three Oaks) reported total assets of $19,107 in its 2012 Form 990, versus $12,151 in 2011 \u2014 a +57% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/300306968"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680432+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-366000416",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "International Association Of Sheet Metal Air Rail & Transportation total assets up 57% (2011\u21922012)",
+  "why_it_might_matter": "International Association Of Sheet Metal Air Rail & Transportation (Benton Harbor) reported total assets of $51,106 in its 2012 Form 990, versus $32,517 in 2011 \u2014 a +57% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/366000416"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680436+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-473437645",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Cassopolis Main Street total assets up 57% (2022\u21922023)",
+  "why_it_might_matter": "Cassopolis Main Street (Cassopolis) reported total assets of $61,712 in its 2023 Form 990, versus $39,333 in 2022 \u2014 a +57% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/473437645"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680440+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-342005236",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Strong Women Of Faith Breast Cancer Support Group total assets down 55% (2010\u21922011)",
+  "why_it_might_matter": "Strong Women Of Faith Breast Cancer Support Group (Benton Harbor) reported total assets of $326 in its 2011 Form 990, versus $732 in 2010 \u2014 a -55% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/342005236"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680444+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-300275826",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Cis Christian Involvement In Service total assets up 55% (2022\u21922023)",
+  "why_it_might_matter": "Cis Christian Involvement In Service (Saint Joseph) reported total assets of $64,222 in its 2023 Form 990, versus $41,366 in 2022 \u2014 a +55% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/300275826"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680449+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-473870363",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Changing The Face Of Beauty total assets down 55% (2019\u21922020)",
+  "why_it_might_matter": "Changing The Face Of Beauty (Lakeside) reported total assets of $14,323 in its 2020 Form 990, versus $31,952 in 2019 \u2014 a -55% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/473870363"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680453+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-201716641",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Well Of Grace Ministries Incorporated total assets up 53% (2022\u21922023)",
+  "why_it_might_matter": "Well Of Grace Ministries Incorporated (Stevensville) reported total assets of $245,549 in its 2023 Form 990, versus $160,707 in 2022 \u2014 a +53% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/201716641"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680457+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-843582323",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Market Van Buren total assets up 52% (2022\u21922023)",
+  "why_it_might_matter": "Market Van Buren (Benton Harbor) reported total assets of $371,060 in its 2023 Form 990, versus $243,759 in 2022 \u2014 a +52% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/843582323"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680461+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-863461874",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Neighbor By Neighbor total assets up 52% (2022\u21922023)",
+  "why_it_might_matter": "Neighbor By Neighbor (Union Pier) reported total assets of $445,471 in its 2023 Form 990, versus $293,581 in 2022 \u2014 a +52% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/863461874"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680465+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382568687",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "New Buffalo Business & Community Association total assets up 52% (2021\u21922022)",
+  "why_it_might_matter": "New Buffalo Business & Community Association (New Buffalo) reported total assets of $35,267 in its 2022 Form 990, versus $23,274 in 2021 \u2014 a +52% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382568687"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680469+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-386062439",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Stanley O Miller Charitable Fund total assets down 52% (2022\u21922023)",
+  "why_it_might_matter": "Stanley O Miller Charitable Fund (St Joseph) reported total assets of $31,241 in its 2023 Form 990, versus $64,435 in 2022 \u2014 a -52% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/386062439"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680473+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-386040066",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Grand Beach Social Club total assets down 50% (2019\u21922020)",
+  "why_it_might_matter": "Grand Beach Social Club (Grand Beach) reported total assets of $6,308 in its 2020 Form 990, versus $12,596 in 2019 \u2014 a -50% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/386040066"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680477+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382569578",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Emergency Care Network Inc total assets down 50% (2022\u21922023)",
+  "why_it_might_matter": "Emergency Care Network Inc (Three Rivers) reported total assets of $9,923 in its 2023 Form 990, versus $19,695 in 2022 \u2014 a -50% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382569578"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680481+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-834569361",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Three Rivers Promise total assets up 46% (2022\u21922023)",
+  "why_it_might_matter": "Three Rivers Promise (Three Rivers) reported total assets of $581,381 in its 2023 Form 990, versus $397,909 in 2022 \u2014 a +46% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/834569361"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680485+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383438862",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Harbor Arts Inc total assets down 46% (2013\u21922014)",
+  "why_it_might_matter": "Harbor Arts Inc (Sawyer) reported total assets of $7,050 in its 2014 Form 990, versus $12,976 in 2013 \u2014 a -46% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383438862"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680489+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-261845072",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Radio Harbor Country total assets down 43% (2014\u21922015)",
+  "why_it_might_matter": "Radio Harbor Country (Sawyer) reported total assets of $18,180 in its 2015 Form 990, versus $32,113 in 2014 \u2014 a -43% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/261845072"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680493+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383586012",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Genesis Outreach Development Inc total assets up 43% (2022\u21922023)",
+  "why_it_might_matter": "Genesis Outreach Development Inc (Benton Harbor) reported total assets of $43,366 in its 2023 Form 990, versus $30,328 in 2022 \u2014 a +43% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383586012"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680498+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383715900",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Orphans International Helpline total assets down 42% (2022\u21922023)",
+  "why_it_might_matter": "Orphans International Helpline (Berrien Springs) reported total assets of $22,323 in its 2023 Form 990, versus $38,435 in 2022 \u2014 a -42% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383715900"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680503+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383332816",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Southwestern Medical Clinic Foundation total assets down 41% (2022\u21922023)",
+  "why_it_might_matter": "Southwestern Medical Clinic Foundation (St Joseph) reported total assets of $135,027 in its 2023 Form 990, versus $230,412 in 2022 \u2014 a -41% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383332816"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680508+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-381256372",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Three Rivers Area Chamber Of Commerce total assets up 41% (2022\u21922023)",
+  "why_it_might_matter": "Three Rivers Area Chamber Of Commerce (Three Rivers) reported total assets of $145,496 in its 2023 Form 990, versus $103,441 in 2022 \u2014 a +41% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/381256372"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680512+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-381647249",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Diamond Island Assn total assets down 41% (2022\u21922023)",
+  "why_it_might_matter": "Diamond Island Assn (Cassopolis) reported total assets of $214,276 in its 2023 Form 990, versus $360,984 in 2022 \u2014 a -41% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/381647249"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680516+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382655824",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Little League Baseball Inc total assets up 40% (2022\u21922023)",
+  "why_it_might_matter": "Little League Baseball Inc (Edwardsburg) reported total assets of $113,605 in its 2023 Form 990, versus $81,015 in 2022 \u2014 a +40% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382655824"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680520+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-275009023",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "St Joseph Football Boosters total assets down 40% (2022\u21922023)",
+  "why_it_might_matter": "St Joseph Football Boosters (Saint Joseph) reported total assets of $23,634 in its 2023 Form 990, versus $39,287 in 2022 \u2014 a -40% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/275009023"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680524+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-386073722",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Rotary International total assets down 40% (2018\u21922019)",
+  "why_it_might_matter": "Rotary International (Berrien Sprgs) reported total assets of $5,340 in its 2019 Form 990, versus $8,858 in 2018 \u2014 a -40% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/386073722"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680528+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-770720401",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Eagle Lake Improvement Association Inc total assets up 40% (2022\u21922023)",
+  "why_it_might_matter": "Eagle Lake Improvement Association Inc (Edwardsburg) reported total assets of $133,369 in its 2023 Form 990, versus $95,596 in 2022 \u2014 a +40% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/770720401"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680534+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383287818",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Berrien-Cass-Vanburen Workforce Development Board Inc total assets up 39% (2022\u21922023)",
+  "why_it_might_matter": "Berrien-Cass-Vanburen Workforce Development Board Inc (Benton Harbor) reported total assets of $3,596,089 in its 2023 Form 990, versus $2,581,468 in 2022 \u2014 a +39% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383287818"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680542+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-451257972",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Three Rivers Health System Inc total assets up 39% (2022\u21922023)",
+  "why_it_might_matter": "Three Rivers Health System Inc (Three Rivers) reported total assets of $54,102,951 in its 2023 Form 990, versus $38,845,134 in 2022 \u2014 a +39% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/451257972"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680549+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383379778",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Institute For International Cooperation & Development Michigan total assets down 39% (2022\u21922023)",
+  "why_it_might_matter": "Institute For International Cooperation & Development Michigan (Dowagiac) reported total assets of $238,100 in its 2023 Form 990, versus $391,313 in 2022 \u2014 a -39% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383379778"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680553+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-743126458",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Friends Of Niles District Library total assets up 38% (2016\u21922017)",
+  "why_it_might_matter": "Friends Of Niles District Library (Niles) reported total assets of $11,676 in its 2017 Form 990, versus $8,431 in 2016 \u2014 a +38% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/743126458"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680557+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-386090138",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Southwest Michigan Symphony Orchestra Inc total assets down 38% (2022\u21922023)",
+  "why_it_might_matter": "Southwest Michigan Symphony Orchestra Inc (Saint Joseph) reported total assets of $309,405 in its 2023 Form 990, versus $502,439 in 2022 \u2014 a -38% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/386090138"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680561+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382152240",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Indian Lake Fire Department Inc total assets up 38% (2022\u21922023)",
+  "why_it_might_matter": "Indian Lake Fire Department Inc (Dowagiac) reported total assets of $1,105,712 in its 2023 Form 990, versus $800,466 in 2022 \u2014 a +38% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382152240"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680565+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-464144469",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Alex Mandarino Foundation total assets down 38% (2022\u21922023)",
+  "why_it_might_matter": "Alex Mandarino Foundation (St Joseph) reported total assets of $79,918 in its 2023 Form 990, versus $127,909 in 2022 \u2014 a -38% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/464144469"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680570+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383402730",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Lakeshore Excellence Foundation total assets down 37% (2022\u21922023)",
+  "why_it_might_matter": "Lakeshore Excellence Foundation (Stevensville) reported total assets of $564,623 in its 2023 Form 990, versus $900,246 in 2022 \u2014 a -37% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383402730"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680574+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-461430756",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Lions International New Buffalo total assets down 37% (2016\u21922017)",
+  "why_it_might_matter": "Lions International New Buffalo (New Buffalo) reported total assets of $45,024 in its 2017 Form 990, versus $71,732 in 2016 \u2014 a -37% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/461430756"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680578+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-381781198",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Apple Farm Community Inc total assets up 37% (2022\u21922023)",
+  "why_it_might_matter": "Apple Farm Community Inc (Three Rivers) reported total assets of $397,065 in its 2023 Form 990, versus $289,484 in 2022 \u2014 a +37% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/381781198"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680583+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383553213",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Minority Coalitions Of Cass County total assets down 37% (2017\u21922020)",
+  "why_it_might_matter": "Minority Coalitions Of Cass County (Cassopolis) reported total assets of $940 in its 2020 Form 990, versus $1,495 in 2017 \u2014 a -37% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383553213"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680587+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383114023",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Winning Inc Of America total assets down 35% (2021\u21922023)",
+  "why_it_might_matter": "Winning Inc Of America (Benton Harbor) reported total assets of $11,350 in its 2023 Form 990, versus $17,591 in 2021 \u2014 a -35% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383114023"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680591+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-460693541",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Lakeshore Band Parents Inc total assets down 35% (2022\u21922023)",
+  "why_it_might_matter": "Lakeshore Band Parents Inc (Stevensville) reported total assets of $66,544 in its 2023 Form 990, versus $102,319 in 2022 \u2014 a -35% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/460693541"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680594+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382799970",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Niles Haunted House total assets up 35% (2022\u21922023)",
+  "why_it_might_matter": "Niles Haunted House (Niles) reported total assets of $942,267 in its 2023 Form 990, versus $699,487 in 2022 \u2014 a +35% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382799970"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680598+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382841739",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Log Cabin Society Of Michigan Inc total assets down 34% (2015\u21922019)",
+  "why_it_might_matter": "Log Cabin Society Of Michigan Inc (Sodus) reported total assets of $207 in its 2019 Form 990, versus $314 in 2015 \u2014 a -34% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382841739"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680602+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-352372805",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Chi Ishobak Inc total assets up 33% (2022\u21922023)",
+  "why_it_might_matter": "Chi Ishobak Inc (Dowagiac) reported total assets of $13,031,042 in its 2023 Form 990, versus $9,783,491 in 2022 \u2014 a +33% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/352372805"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680607+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-381946646",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Andrews Broadcasting Corporation total assets up 33% (2022\u21922023)",
+  "why_it_might_matter": "Andrews Broadcasting Corporation (Berrien Sprgs) reported total assets of $-440,387 in its 2023 Form 990, versus $-332,297 in 2022 \u2014 a +33% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/381946646"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680611+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-30385771",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Haitian Support Ministries Inc total assets down 32% (2020\u21922021)",
+  "why_it_might_matter": "Haitian Support Ministries Inc (Berrien Sprgs) reported total assets of $16,887 in its 2021 Form 990, versus $24,937 in 2020 \u2014 a -32% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/30385771"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680615+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383624141",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Childrens Music Workshop total assets down 32% (2023\u21922024)",
+  "why_it_might_matter": "Childrens Music Workshop (Stevensville) reported total assets of $64,260 in its 2024 Form 990, versus $94,558 in 2023 \u2014 a -32% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383624141"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680620+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-800341856",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Out Center total assets up 31% (2022\u21922023)",
+  "why_it_might_matter": "Out Center (Benton Harbor) reported total assets of $157,638 in its 2023 Form 990, versus $120,330 in 2022 \u2014 a +31% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/800341856"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680624+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382816471",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Curious Kids Museum total assets up 31% (2022\u21922023)",
+  "why_it_might_matter": "Curious Kids Museum (Saint Joseph) reported total assets of $4,110,972 in its 2023 Form 990, versus $3,148,191 in 2022 \u2014 a +31% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382816471"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680628+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-381141356",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Camp Wakeshma Of St Joseph Co Inc total assets up 30% (2022\u21922023)",
+  "why_it_might_matter": "Camp Wakeshma Of St Joseph Co Inc (Three Rivers) reported total assets of $803,141 in its 2023 Form 990, versus $615,647 in 2022 \u2014 a +30% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/381141356"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680632+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-380341776",
+  "counties": [
+   "Cass MI"
+  ],
+  "headline": "Benevolent & Protective Order Of Elks Of The Usa total assets up 30% (2023\u21922024)",
+  "why_it_might_matter": "Benevolent & Protective Order Of Elks Of The Usa (Three Rivers) reported total assets of $394,724 in its 2024 Form 990, versus $302,718 in 2023 \u2014 a +30% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/380341776"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680636+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-200210563",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Justified Walk Ministries Inc total assets up 30% (2019\u21922020)",
+  "why_it_might_matter": "Justified Walk Ministries Inc (Berrien Sprgs) reported total assets of $6,964 in its 2020 Form 990, versus $5,359 in 2019 \u2014 a +30% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/200210563"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680642+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-800934751",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Saint Joseph Baseball And Softball Association total assets up 30% (2021\u21922022)",
+  "why_it_might_matter": "Saint Joseph Baseball And Softball Association (Saint Joseph) reported total assets of $27,573 in its 2022 Form 990, versus $21,232 in 2021 \u2014 a +30% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/800934751"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680646+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-386092116",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Prospect Point Inc total assets down 28% (2018\u21922019)",
+  "why_it_might_matter": "Prospect Point Inc (Niles) reported total assets of $27,702 in its 2019 Form 990, versus $38,730 in 2018 \u2014 a -28% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/386092116"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680650+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-383567184",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Coloma Hagar Little League Inc total assets up 27% (2022\u21922023)",
+  "why_it_might_matter": "Coloma Hagar Little League Inc (Coloma) reported total assets of $113,077 in its 2023 Form 990, versus $89,039 in 2022 \u2014 a +27% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/383567184"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680654+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382025227",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Center For Growth And Independence total assets up 27% (2022\u21922023)",
+  "why_it_might_matter": "Center For Growth And Independence (Benton Harbor) reported total assets of $1,442,548 in its 2023 Form 990, versus $1,135,972 in 2022 \u2014 a +27% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382025227"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680658+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-820686655",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "River Of Life School total assets down 27% (2022\u21922023)",
+  "why_it_might_matter": "River Of Life School (Benton Harbor) reported total assets of $120,923 in its 2023 Form 990, versus $165,121 in 2022 \u2014 a -27% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/820686655"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680680+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-371474113",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Citadel Dance And Music Center Inc total assets up 27% (2022\u21922023)",
+  "why_it_might_matter": "Citadel Dance And Music Center Inc (Benton Harbor) reported total assets of $101,427 in its 2023 Form 990, versus $80,115 in 2022 \u2014 a +27% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/371474113"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680684+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-381276067",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "American Legion total assets down 26% (2020\u21922023)",
+  "why_it_might_matter": "American Legion (Benton Harbor) reported total assets of $365,828 in its 2023 Form 990, versus $497,611 in 2020 \u2014 a -26% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/381276067"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680688+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-562559169",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Southwest Michigan Bible Quizzing total assets up 26% (2015\u21922016)",
+  "why_it_might_matter": "Southwest Michigan Bible Quizzing (St Joseph) reported total assets of $254 in its 2016 Form 990, versus $201 in 2015 \u2014 a +26% change (small prior-year base \u2014 a large percentage here can still be a small dollar move). Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/562559169"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680692+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-454440211",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Southwest Michigan Soccer Club total assets up 26% (2022\u21922023)",
+  "why_it_might_matter": "Southwest Michigan Soccer Club (Stevensville) reported total assets of $169,100 in its 2023 Form 990, versus $133,926 in 2022 \u2014 a +26% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/454440211"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ },
+ {
+  "feed": "scanner",
+  "candidate_type": "event",
+  "source": "irs_990",
+  "created_at": "2026-09-06T03:24:56.680696+00:00",
+  "status": "new",
+  "recipe_ids": [],
+  "candidate_id": "scan-990-382219687",
+  "counties": [
+   "Berrien MI"
+  ],
+  "headline": "Community Hospital Auxiliary Of Watervliet total assets down 25% (2018\u21922019)",
+  "why_it_might_matter": "Community Hospital Auxiliary Of Watervliet (Watervliet) reported total assets of $49,441 in its 2019 Form 990, versus $66,015 in 2018 \u2014 a -25% change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+  "axis_a": [
+   "ownership",
+   "distribution"
+  ],
+  "axis_b": [
+   "unmeasured"
+  ],
+  "function": [
+   "Stewardship"
+  ],
+  "stock_or_flow": "stock",
+  "evidence_urls": [
+   "https://projects.propublica.org/nonprofits/organizations/382219687"
+  ],
+  "confidence": "soft",
+  "screen_result": "surface"
+ }
+]
