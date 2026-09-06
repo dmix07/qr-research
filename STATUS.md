@@ -47,7 +47,7 @@ Building the event sources per Dustin's overnight brief, in order, committing af
 | 2 | SEC EDGAR Form D | **built** — `sec_form_d` | 7 events, all Michigan-side (Berrien/Cass) in local test — no IN Gateway parcel data available on this laptop to exercise the Indiana side, which will run for real on the server |
 | 3 | Bankruptcy (CourtListener RECAP) | **built** — `bankruptcy` | 3 events (all MI-side locally, same laptop limitation as #2) — county tagging is text-search-derived, not address-verified (no API key; see QUESTIONS.md) |
 | 4 | IEDC transparency portal | **dropped** | Real data API found (`POST /contract/search`) but blocked by bot management (405 on every POST); no bulk CSV on the site. Terms-of-use not locatable either. See QUESTIONS.md #8. |
-| 5 | USASpending | not started | |
+| 5 | USASpending | **built** — `usaspending` | 669 events locally ($250k+ floor, 24mo, grants+contracts; 0 loans) — high volume (AM General, Notre Dame, Honeywell, MDOT formula grants); flagged as a screening-cost/review-load thing to watch |
 | 6 | IRS 990 (ProPublica) | not started | |
 | 7 | Michigan Treasury local-unit finance (stretch) | not started | |
 | — | Accumulation candidates (entity matching across sources 1–3) | not started | |
