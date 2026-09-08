@@ -162,3 +162,78 @@ threshold, flagged not-publishable.
 | St. Joseph IN | commercial | 5,789 | 73.4% | 45.0% | +28.4% |
 | Elkhart IN | commercial | 4,309 | 73.2% | 50.6% | +22.6% |
 | Marshall IN | commercial | 1,290 | 77.3% | 61.3% | +16.0% |
+
+## Count-local% / value-local% trend, 2020 pay 2021 → 2025 pay 2026, all six available vintages
+
+Computed by `qr_research/lens/gateway_locality_trend.py`, which loops the unmodified
+`value_coverage()`/`count_vs_value_local_share()` from the prior build across all six years and
+pivots the result — no acreage code touched or imported (constraint honored; see #90). Backfill
+script: `qr_research/lens/gateway_historical_backfill.py`, reusing `GatewayConnector`'s own
+download/parse/load path unchanged.
+
+**2020-2025 is a COVID-into-rate-shock window** — near-zero interest rates through 2021,
+then the fastest Fed tightening cycle in 40 years from 2022, plus COVID-era remote work and
+e-commerce shifts hitting commercial/industrial demand unevenly. None of the numbers below
+support any claim about *why* something moved, or whether it's a new baseline versus a blip in
+an unusual six years. They say only what moved and by how much.
+
+### Value-field coverage (Check 1, extended across years) — the guard on everything below
+
+| County | Class | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| St. Joseph IN | industrial | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| Elkhart IN | industrial | 100.0% | 100.0% | 99.9% | 99.9% | 99.9% | 99.9% |
+| Marshall IN | industrial | 88.7% | 88.6% | 90.4% | 90.2% | 90.1% | 90.0% |
+| St. Joseph IN | commercial | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 99.9% |
+| Elkhart IN | commercial | 99.8% | 99.8% | 99.8% | 99.8% | 99.8% | 99.7% |
+| Marshall IN | commercial | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+
+**Marshall industrial never clears 95% in any of the six years** (88.6%–90.4%) — this isn't a
+2025-only thinness, it's a standing property of that cell. **Its value-local% trend below is
+not publishable across the whole window.** Every other cell clears 99.7%+ every year. Note that
+`count-local%` doesn't read `av_total` at all, so Marshall industrial's *count*-local trend is
+unaffected by this guard — only its *value*-local trend is flagged.
+
+### Count-local% (share of parcels owned locally)
+
+| County | Class | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | Δ 2020→2025 |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| St. Joseph IN | industrial | 70.3% | 69.6% | 70.2% | 70.0% | 68.3% | 67.2% | −3.1pp |
+| Elkhart IN | industrial | 84.1% | 84.5% | 84.1% | 83.7% | 83.4% | 83.0% | −1.1pp |
+| Marshall IN | industrial | 77.2% | 78.6% | 77.4% | 77.4% | 76.8% | 75.3% | −1.9pp |
+| St. Joseph IN | commercial | 75.6% | 75.5% | 75.7% | 74.8% | 73.8% | 73.4% | −2.2pp |
+| Elkhart IN | commercial | 76.2% | 75.8% | 75.0% | 74.2% | 73.4% | 73.2% | −3.0pp |
+| Marshall IN | commercial | 79.7% | 79.2% | 78.3% | 77.3% | 77.4% | 77.3% | −2.4pp |
+
+### Value-local% (share of assessed value owned locally)
+
+| County | Class | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | Δ 2020→2025 |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| St. Joseph IN | industrial | 56.7% | 57.0% | 58.4% | 60.8% | 60.2% | 51.0% | −5.7pp |
+| Elkhart IN | industrial | 78.0% | 78.8% | 78.5% | 75.6% | 74.3% | 72.7% | −5.3pp |
+| Marshall IN | industrial | 59.2% | 62.8% | 59.6% | 55.6% | 55.6% | 53.9% | −5.3pp (**not publishable — coverage <95% every year**) |
+| St. Joseph IN | commercial | 45.9% | 47.3% | 46.9% | 46.0% | 45.3% | 45.0% | −0.9pp |
+| Elkhart IN | commercial | 51.2% | 51.5% | 48.9% | 47.8% | 50.0% | 50.6% | −0.6pp |
+| Marshall IN | commercial | 63.4% | 62.5% | 62.7% | 63.3% | 63.9% | 61.3% | −2.1pp |
+
+**What actually moved (descriptive only, no causal claim):**
+
+- **Count-local% drifted down in all six cells, by 1.1 to 3.1 percentage points, gradually and
+  fairly monotonically.** This is the broadest pattern in the data — small, consistent, present
+  everywhere regardless of county or class.
+- **The single largest and sharpest move in either table is St. Joseph industrial's
+  value-local%**: it rose for four straight years (56.7% → 60.8%, 2020→2023) and then dropped
+  9.2 points in one year, 2024→2025 (60.2% → 51.0%). That cell has 100% value-field coverage
+  every year, so this is not a data-quality artifact — it's a real, sharp, single-year
+  reversal, and it's consistent with the earlier single-year build's finding that St. Joseph
+  industrial was the one cell running against the "locals own dirt" pattern.
+- **Elkhart industrial's value-local% declined steadily and by a similar total magnitude
+  (78.0% → 72.7%, −5.3pp) but gradually across six years**, not in one jump — a slower, more
+  linear erosion in the county with the largest industrial value base of the three ($4.4B in
+  the 2025 snapshot).
+- **Marshall industrial's apparent −5.3pp value-local decline cannot be trusted** — coverage
+  sits at 88.6–90.4% every year, never clearing the 95% bar, so the movement could partly
+  reflect which parcels happen to report a value each year rather than real ownership change.
+- **Commercial value-local% is comparatively flat everywhere** (St. Joseph −0.9pp, Elkhart
+  −0.6pp net despite a mid-window dip, Marshall −2.1pp) — nothing that stands out from
+  year-to-year noise in a six-point series.
