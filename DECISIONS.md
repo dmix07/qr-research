@@ -126,3 +126,35 @@ narrative-breaking number in the table (St. Joseph industrial) is exactly the on
 report acreage at all, and this analysis alone can't tell those apart.** A time-series build (the
 brief's proposed next step) would help by showing whether St. Joseph industrial's coverage
 improves in other assessment years, or whether the reversal is stable across vintages.
+
+## Two checks, 2025 pay 2026, no interpretation (per request — numbers only)
+
+Both computed by `qr_research/lens/gateway_commercial_industrial_locality.py`'s `value_coverage()`
+and `count_vs_value_local_share()`, reusing `classify()` from `lens/gateway_drafts.py` — same
+locality definition as the rest of this recipe.
+
+### Check 1 — value-field (`av_total`) coverage
+
+| County | Class | Parcels | Value populated | Coverage | Publishable (≥95%)? |
+|---|---|---:|---:|---:|---|
+| St. Joseph IN | industrial | 1,672 | 1,672 | 100.0% | Yes |
+| Elkhart IN | industrial | 3,574 | 3,571 | 99.9% | Yes |
+| Marshall IN | industrial | 409 | 368 | 90.0% | **No** |
+| St. Joseph IN | commercial | 5,789 | 5,784 | 99.9% | Yes |
+| Elkhart IN | commercial | 4,309 | 4,298 | 99.7% | Yes |
+| Marshall IN | commercial | 1,290 | 1,290 | 100.0% | Yes |
+
+Value coverage is clean (≥99.9%) in five of six cells — a different picture from acreage, which
+was thin in St. Joseph. The one exception: **Marshall industrial at 90.0%**, below the 95%
+threshold, flagged not-publishable.
+
+### Check 2 — parcel-count local share vs. value local share
+
+| County | Class | Parcels | Count-local% | Value-local% | Diff (count − value) |
+|---|---|---:|---:|---:|---:|
+| St. Joseph IN | industrial | 1,672 | 67.2% | 51.0% | +16.1% |
+| Elkhart IN | industrial | 3,574 | 83.0% | 72.7% | +10.3% |
+| Marshall IN | industrial | 409 | 75.3% | 53.9% | +21.4% |
+| St. Joseph IN | commercial | 5,789 | 73.4% | 45.0% | +28.4% |
+| Elkhart IN | commercial | 4,309 | 73.2% | 50.6% | +22.6% |
+| Marshall IN | commercial | 1,290 | 77.3% | 61.3% | +16.0% |
