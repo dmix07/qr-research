@@ -237,3 +237,59 @@ unaffected by this guard — only its *value*-local trend is flagged.
 - **Commercial value-local% is comparatively flat everywhere** (St. Joseph −0.9pp, Elkhart
   −0.6pp net despite a mid-window dip, Marshall −2.1pp) — nothing that stands out from
   year-to-year noise in a six-point series.
+
+## Narrow lookup: St. Joseph industrial, 2024→2025 — why did value-local% drop 9.2pp?
+
+Computed by `qr_research/lens/gateway_stjoe_industrial_drilldown.py` (one-off, read-only,
+no acreage, not wired into run.py/Makefile), joining St. Joseph industrial parcels
+(class 300–399) present in the 2024 and 2025 files on `parcel_number`.
+
+**Q1 — count-local% vs value-local%, isolated to the one-year change:**
+
+| Year | Count-local% (parcels) | Value-local% |
+|---|---:|---:|
+| 2024 | 68.3% (1,140/1,669) | 60.2% |
+| 2025 | 67.2% (1,123/1,672) | 51.0% |
+| Change | **−1.1pp** | **−9.2pp** |
+
+Count held roughly flat; value fell hard. Per the brief's own framework, this is **concentration
+of value, not a broad ownership change** — confirmed by Q2 below, not just inferred from the gap.
+
+**Q2 — parcel-level attribution.** 1,645 parcels are present in both years; 24 dropped out after
+2024; **27 are entirely new in 2025** (did not exist as taxed parcels in 2024 at all).
+
+- *Real locality flips (existing parcels changing hands):* 45 of 1,645 common parcels (2.7%)
+  changed locality status — 33 local→non-local, 12 non-local→local. Net effect: **−$14.1M** off
+  the local-value numerator. A handful are identifiable, named transactions: **City of South
+  Bend → McCormick & Company Inc**; two "Catalyst" LLC parcels → **Seba Chelo Catalyst SB LLC**;
+  two "SLB Properties LLC" parcels → **NL Ventures XII Clover LLC**; **Mossberg And Company
+  Inc. → DWG Sample St Partners LLC**; a family revocable trust → **CRC Granger Properties
+  LLC**. Real, but a modest share of the total move.
+- *New parcels, not a flip of anything:* the 27 new-in-2025 parcels carry **$155.6M** in combined
+  assessed value — $143.7M of it non-local, $11.9M local. **One owner accounts for $142.6M of
+  that non-local total across 7 new industrial parcels (property class 346/399) clustered on
+  Edison Rd/SR 2 near New Carlisle: "Razor5 LLC," mailing address 251 Little Falls Dr,
+  Wilmington, DE** — a Delaware registered-agent address, not an operating address; the actual
+  beneficial owner isn't identifiable from this data and would need a separate public-records
+  or news search to name. This single entity is **~48% of the entire $295.8M growth** in
+  St. Joseph industrial assessed value 2024→2025, and mechanically explains most of the
+  value-local% drop by itself: a large new non-local-owned facility entered the tax rolls,
+  inflating the (mostly non-local) denominator far more than any existing property changed hands.
+- **Concentrated, not diffuse:** the flips (5–6 named deals) plus one new-construction owner
+  account for the large majority of the swing. This is not hundreds of small changes.
+
+**Q3 — reassessment check, existing parcels only (excludes the 27 new ones, so the new-parcel
+effect above can't contaminate this number):** parcels local in 2024 grew **+16.6%**
+($497.3M→$579.7M); parcels non-local in 2024 grew **+18.5%** ($329.3M→$390.3M). A 1.9-point
+growth-rate gap — real, but far too small to explain a 9.2pp share swing by itself. **The
+existing tax base was not broadly reassessed in a way that favors non-local value; this is
+not (c).**
+
+**Verdict: closest to (a) — a real, concentrated, nameable change — with a twist.** It is not
+primarily *existing local property being sold to outsiders* (that happened too, ~$14.1M worth,
+named above, but it's the smaller effect). The dominant story is **new industrial value entering
+the tax rolls already non-locally owned** — one Delaware-registered LLC's ~$142.6M, 7-parcel
+industrial development is by itself responsible for roughly half of the total value growth in
+the class and mechanically most of the local-share drop. Not (b) (there's a real, nameable
+cause, not a faceless concentration effect) and not (c) (the existing tax base moved evenly,
+within 2 points, regardless of locality).
