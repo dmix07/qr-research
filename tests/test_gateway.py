@@ -27,6 +27,12 @@ def test_parse_acreage_blank_is_zero():
     assert gateway._parse_acreage("") == 0.0
 
 
+def test_parse_acreage_decimal_without_leading_zero():
+    """Found live during the 2020-2025 backfill (DECISIONS.md #87): under-an-acre parcels are
+    sometimes stored as ".9900" rather than "0.9900"."""
+    assert gateway._parse_acreage(".9900") == 0.99
+
+
 def test_parse_acreage_unrecognized_format_fails_loud():
     """Regression test for DECISIONS.md #78: an acreage value that matches neither known
     format must raise, not silently coerce to 0."""

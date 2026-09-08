@@ -63,11 +63,12 @@ def _date(s: str) -> str | None:
 
 
 # Acreage format changed across vintages (DECISIONS.md #78): pre-2025 files store a plain
-# decimal ("39.5500" = 39.55 acres); 2025 stores a zero-padded integer scaled x10000
-# ("000000428300" = 42.83 acres). Never coerce an unrecognized value to 0 — that was the bug
-# (silently zeroed every pre-2025 record). Fail loud instead so a third format shows up as a
-# health="error", not a wrong number.
-_ACREAGE_DECIMAL_RE = re.compile(r"^\d+\.\d+$")
+# decimal ("39.5500" = 39.55 acres, or ".9900" for under an acre — confirmed live during the
+# 2020-2025 backfill, DECISIONS.md #87 — hence \d* not \d+ before the point); 2025 stores a
+# zero-padded integer scaled x10000 ("000000428300" = 42.83 acres). Never coerce an
+# unrecognized value to 0 — that was the bug (silently zeroed every pre-2025 record). Fail
+# loud instead so a fourth format shows up as a health="error", not a wrong number.
+_ACREAGE_DECIMAL_RE = re.compile(r"^\d*\.\d+$")
 _ACREAGE_INT_RE = re.compile(r"^\d+$")
 
 
