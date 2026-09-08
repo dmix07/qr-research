@@ -62,6 +62,26 @@ def _date(s: str) -> str | None:
         return None
 
 
+# Acreage format changed across vintages (DECISIONS.md #78): pre-2025 files store a plain
+# decimal ("39.5500" = 39.55 acres); 2025 stores a zero-padded integer scaled x10000
+# ("000000428300" = 42.83 acres). Never coerce an unrecognized value to 0 — that was the bug
+# (silently zeroed every pre-2025 record). Fail loud instead so a third format shows up as a
+# health="error", not a wrong number.
+_ACREAGE_DECIMAL_RE = re.compile(r"^\d+\.\d+$")
+_ACREAGE_INT_RE = re.compile(r"^\d+$")
+
+
+def _parse_acreage(raw: str, context: str = "") -> float:
+    s = raw.strip()
+    if not s:
+        return 0.0
+    if _ACREAGE_DECIMAL_RE.match(s):
+        return float(s)
+    if _ACREAGE_INT_RE.match(s):
+        return int(s) / 10000
+    raise ValueError(f"unrecognized acreage format {raw!r}{' in ' + context if context else ''} — add a case, don't guess")
+
+
 class GatewayConnector(Connector):
     source_id = "in_gateway_parcels"
     tier = 2
@@ -124,7 +144,7 @@ class GatewayConnector(Connector):
             "owner_state": p["owner_state"][:2].upper(), "owner_zip5": p["owner_zip"][:5], "owner_country": p["owner_country"],
             "transfer_date": _date(p["transfer_date"]),
             "av_land": _int(p["av_land"]), "av_improvements": _int(p["av_improvements"]), "av_total": _int(p["av_total"]),
-            "acres": (_int(p["acreage_x10000"]) or 0) / 10000,
+            "acres": _parse_acreage(p["acreage_x10000"], context=f"{p['county_fips']}:{p['assessment_year']}:{p['parcel_number']}"),
             "owner_is_entity": 1 if BUSINESS_RE.search(p["owner_name"]) else 0,
         }]
 
@@ -140,8 +160,16 @@ class GatewayConnector(Connector):
             recs, ok, note = [], False, repr(e)
         path = self.store_raw(recs) if recs else None
         if recs:
-            load(self, recs)
-            build_entities()
+            # Raw snapshot is already written above (immutable) regardless of what happens
+            # next. A normalize()/load() failure — e.g. _parse_acreage hitting a format it
+            # doesn't recognize — must not silently coerce bad data into the normalized store,
+            # but it also must not crash every other connector in the same `run.py` process.
+            # Catch it here, scoped to this one source, and fail loud via health="error".
+            try:
+                load(self, recs)
+                build_entities()
+            except Exception as e:  # noqa: BLE001
+                ok, note = False, repr(e)
         health = record_health(self.source_id, len(recs), self.expected_volume(), self.schema_hash(recs) if recs else "", ok, note)
         return {"source": self.source_id, "records": len(recs), "raw_path": str(path), "health": health, "note": note}
 
