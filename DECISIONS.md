@@ -85,3 +85,44 @@
 | 81 (build — prerequisite fix) | `gateway.py` gained `_parse_acreage()`: recognizes the two known formats (pre-2025 plain decimal, 2025 zero-padded x10000 integer) and raises `ValueError` on anything else, instead of the old `(_int(x) or 0) / 10000` which silently returned 0 for any unrecognized string | Add a broader `try/except` that logs a warning and continues | The brief was explicit: "the parser must STOP and report, not coerce to zero." A caught-and-logged warning is easy to miss in a weekly cron log; a health="error" row in the `sources` table (see #82) is not. |
 | 82 (build — prerequisite fix) | `GatewayConnector.run()` now wraps `load()`/`build_entities()` in the same try/except as `fetch()`, so a `_parse_acreage` failure (or any future normalize()-time failure) sets this *one* source's health to "error" with the exception message as the note, rather than propagating an uncaught exception out of `run()` | Let it crash `python -m qr_research.run` entirely | `run.py` calls every connector's `.run()` in one sequential loop with no per-connector isolation there — an uncaught exception from Gateway's `normalize()` would have taken FDIC, Census, and every other source down with it, not just the one with the bad record. Scoping the catch to this connector's own `run()` keeps "fail loud" from becoming "fail everywhere." Raw snapshots are written before this point regardless, so nothing immutable is lost either way. |
 | 83 (build) | Added `tests/test_gateway.py` — first dedicated test file for the base `GatewayConnector`/PARCEL connector (previously untested directly; only exercised via `test_fdic.py`'s reproduction checks) | Add the acreage tests to an existing file | `gateway.py` had no test file of its own despite being the #006 source and now the target of a real bug fix; gave it one rather than bolting acreage tests onto an unrelated file. |
+| 84 (build) | Value-weighted local-ownership share uses `av_total` (land + improvements), not `av_land` or `av_improvements` alone | Use `av_land` only (closer to a pure land-value comparison against acreage) | The brief said "use TOTAL assessed value unless there's a reason not to." No reason turned up: `av_total` is what the county actually taxes and what an owner actually holds economically, and it's the figure the published Observations (#005/#006) already report in. Splitting land vs. improvement value is a real follow-up question but a different one. |
+| 85 (build) | `qr_research/lens/gateway_commercial_industrial_locality.py` added as a standalone script, not wired into `run.py`/`Makefile`/a recipe | Turn this straight into a Lens recipe + candidate generator | The brief is explicit that this is a research question first ("if the gap isn't real, we stop here") — building it into the pipeline before knowing the answer would be exactly the kind of premature building CLAUDE.md's decision rule warns against. It reuses `classify()`/`num()` from the existing recipe's drafts module rather than reinventing the locality logic, so promoting it later is a small move, not a rewrite. |
+| 86 (build) | Verdict on the acreage-vs-value gap: **real, but modest, and its single largest instance is the least trustworthy result in the table** — see the table and read below | — | Full numbers below. |
+
+## Commercial/industrial local-ownership share, by county — acreage vs. value (2025 pay 2026)
+
+| County | Class | Parcels | Total acres | Total assessed value | Acreage-local% | Value-local% | Gap (acre − value) |
+|---|---|---:|---:|---:|---:|---:|---:|
+| St. Joseph IN | industrial | 1,672 | 6,536.0 | $1,125,653,600 | 35.7% | 51.0% | **−15.3%** |
+| Elkhart IN | industrial | 3,574 | 18,400.5 | $4,418,391,500 | 79.0% | 72.7% | +6.3% |
+| Marshall IN | industrial | 409 | 2,577.5 | $321,181,600 | 55.7% | 53.9% | +1.7% |
+| St. Joseph IN | commercial | 5,789 | 4,795.8 | $3,409,806,300 | 58.7% | 45.0% | +13.7% |
+| Elkhart IN | commercial | 4,309 | 8,711.7 | $2,007,813,400 | 57.6% | 50.6% | +7.0% |
+| Marshall IN | commercial | 1,290 | 3,376.7 | $394,801,300 | 76.0% | 61.3% | **+14.6%** |
+
+Acreage-field data-quality coverage (share of parcels in that county×class with acreage > 0 —
+the acreage-weighted column above is only as trustworthy as this number):
+
+| County | Industrial coverage | Commercial coverage |
+|---|---:|---:|
+| St. Joseph IN | 26% (438/1,672) | 22% (1,294/5,789) |
+| Elkhart IN | 100% (3,564/3,574) | 99% (4,282/4,309) |
+| Marshall IN | 69% (282/409) | 37% (475/1,290) |
+
+**Read:** the "locals own the dirt, outsiders own the value" story holds, modestly, in five of
+six county×class cells — acreage-local share exceeds value-local share by +1.7% to +14.6%,
+meaning local owners are somewhat more concentrated in land than in dollars everywhere except
+one cell. That one exception is also the single largest gap in the table: **St. Joseph
+industrial runs backward, at −15.3%** — local owners hold *more* value than acreage there, the
+opposite of the hypothesized pattern. But St. Joseph industrial (26%) and St. Joseph commercial
+(22%) have by far the worst acreage-field coverage of the six cells — most St. Joseph
+commercial/industrial parcels simply don't have acreage recorded at all, so that acreage-weighted
+share is built from a minority, probably-larger-than-average subset of parcels, not the full
+population. Elkhart's two cells, by contrast, have near-complete acreage coverage (99–100%) and
+show the smallest, most trustworthy gaps (+6.3%, +7.0%). **Honest bottom line: the gap is real
+and consistently positive where the data is actually complete (Elkhart), but the most dramatic,
+narrative-breaking number in the table (St. Joseph industrial) is exactly the one I trust least
+— it could be a genuine reversal or it could be a sampling artifact of which parcels happen to
+report acreage at all, and this analysis alone can't tell those apart.** A time-series build (the
+brief's proposed next step) would help by showing whether St. Joseph industrial's coverage
+improves in other assessment years, or whether the reversal is stable across vintages.
