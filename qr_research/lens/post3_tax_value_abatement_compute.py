@@ -207,12 +207,20 @@ def main() -> dict:
         local = ozip in zips
         fam = family_for(oname)
         owner_key = fam or norm_name(oname or "") or (oname or "").strip().upper()
+        # TAXDATA's "Property Tax Cap This Tax Year" field is the 3%-of-gross-AV CEILING in
+        # dollars, not the credit itself -- confirmed empirically: net_tax_billed =
+        # min(gross_tax_due - local_tax_relief, property_tax_cap) reproduces the reported
+        # value exactly across sampled parcels, including the rare parcel where the cap binds.
+        # The actual circuit-breaker dollar credit is the amount forgiven by that ceiling.
+        after_relief = td["gross_tax_due"] - td["local_tax_relief"]
+        cb_credit = max(0.0, after_relief - td["property_tax_cap"])
         joined.append({
             "parcel_number": pn, "owner_name": oname, "owner_key": owner_key, "family": fam,
             "local_by_zip": local, "av_total_parcel_file": av_total or 0,
             "gross_av": td["gross_av"], "net_av": td["net_av"], "tax_rate": td["tax_rate"],
             "gross_tax_due": td["gross_tax_due"], "local_tax_relief": td["local_tax_relief"],
-            "property_tax_cap": td["property_tax_cap"], "net_tax_billed": td["total_property_tax_due"],
+            "property_tax_cap_ceiling": td["property_tax_cap"], "net_tax_billed": td["total_property_tax_due"],
+            "circuit_breaker_credit": round(cb_credit, 2), "at_3pct_cap": cb_credit > 0.01,
             "total_deductions": adj["total_deductions"], "abatement": adj["abatement"],
         })
 
@@ -224,14 +232,16 @@ def main() -> dict:
         o = owners.setdefault(r["owner_key"], {
             "display_name": r["family"] or r["owner_name"], "is_family": bool(r["family"]),
             "parcel_count": 0, "gross_av": 0, "net_tax_billed": 0, "total_deductions": 0.0,
-            "abatement": 0.0, "property_tax_cap": 0.0, "local_by_zip_any": False, "local_by_zip_all": True,
+            "abatement": 0.0, "circuit_breaker_credit": 0.0, "parcels_at_cap": 0,
+            "local_by_zip_any": False, "local_by_zip_all": True,
         })
         o["parcel_count"] += 1
         o["gross_av"] += r["gross_av"]
         o["net_tax_billed"] += r["net_tax_billed"]
         o["total_deductions"] += r["total_deductions"]
         o["abatement"] += r["abatement"]
-        o["property_tax_cap"] += r["property_tax_cap"]
+        o["circuit_breaker_credit"] += r["circuit_breaker_credit"]
+        o["parcels_at_cap"] += 1 if r["at_3pct_cap"] else 0
         o["local_by_zip_any"] = o["local_by_zip_any"] or r["local_by_zip"]
         o["local_by_zip_all"] = o["local_by_zip_all"] and r["local_by_zip"]
 
@@ -247,7 +257,8 @@ def main() -> dict:
             "tax_share_pct": round(o["net_tax_billed"] / county_total_tax * 100, 4) if county_total_tax else None,
             "effective_rate_pct": round(eff_rate * 100, 4) if eff_rate is not None else None,
             "abatement": round(o["abatement"], 2), "total_deductions": round(o["total_deductions"], 2),
-            "circuit_breaker_credit": round(o["property_tax_cap"], 2),
+            "circuit_breaker_credit": round(o["circuit_breaker_credit"], 2),
+            "parcels_at_3pct_cap": o["parcels_at_cap"],
             "local_by_zip": "all" if o["local_by_zip_all"] else ("some" if o["local_by_zip_any"] else "none"),
         })
     owner_rows.sort(key=lambda r: -r["gross_av"])
@@ -255,15 +266,15 @@ def main() -> dict:
     top10 = owner_rows[:10]
     for r in top10:
         r["gap_pp"] = round((r["value_share_pct"] or 0) - (r["tax_share_pct"] or 0), 4)
-        gross_at_3pct = r["gross_av"] * 0.03
-        r["at_3pct_cap"] = round(r["circuit_breaker_credit"], 2) > 0.01
+        r["at_3pct_cap"] = r["parcels_at_3pct_cap"] > 0
 
-    other_parcels = [r for r in joined if (r["family"] or norm_name(r["owner_name"] or "") or r["owner_name"]) not in {r2["owner_key"] for r2 in top10}]
+    top10_keys = {r["owner_key"] for r in top10}
+    other_parcels = [r for r in joined if r["owner_key"] not in top10_keys]
     other_av = sum(r["gross_av"] for r in other_parcels)
     other_tax = sum(r["net_tax_billed"] for r in other_parcels)
     other_abate = sum(r["abatement"] for r in other_parcels)
     other_ded = sum(r["total_deductions"] for r in other_parcels)
-    other_cb = sum(r["property_tax_cap"] for r in other_parcels)
+    other_cb = sum(r["circuit_breaker_credit"] for r in other_parcels)
     other_row = {
         "owner_key": "ALL OTHER OWNERS", "display_name": "All other owners", "parcel_count": len(other_parcels),
         "gross_av": other_av, "value_share_pct": round(other_av / county_total_av * 100, 4) if county_total_av else None,
@@ -277,7 +288,7 @@ def main() -> dict:
         "gross_av": county_total_av, "value_share_pct": 100.0, "net_tax_billed": round(county_total_tax, 2),
         "tax_share_pct": 100.0, "effective_rate_pct": round(county_total_tax / county_total_av * 100, 4) if county_total_av else None,
         "abatement": round(sum(r["abatement"] for r in joined), 2), "total_deductions": round(sum(r["total_deductions"] for r in joined), 2),
-        "circuit_breaker_credit": round(sum(r["property_tax_cap"] for r in joined), 2),
+        "circuit_breaker_credit": round(sum(r["circuit_breaker_credit"] for r in joined), 2),
     }
 
     local_rows = [r for r in joined if r["local_by_zip"]]
@@ -296,20 +307,36 @@ def main() -> dict:
     # --- verification ---
     recon_sum_tax = round(sum(r["net_tax_billed"] for r in joined), 2)
 
-    max_delta = 0.0
+    # Two independent checks, reported separately rather than blended:
+    #  (1) the literal check this task asked for -- net-of-deduction AV x district rate,
+    #      capped at 3% of gross AV -- compared to TAXDATA's reported net tax billed.
+    #  (2) a full-identity check that also nets out TAXDATA's own "Local Tax Relief" line
+    #      and uses TAXDATA's own reported cap ceiling (rather than a freshly computed 3%),
+    #      to confirm the byte layout itself is parsed correctly independent of check (1).
+    max_delta_literal = 0.0
     over_100 = []
+    max_delta_full = 0.0
+    relief_explains = 0
     for r in joined:
         computed_gross = r["net_av"] / 100.0 * r["tax_rate"]
-        computed_capped = min(computed_gross, r["gross_av"] * 0.03)
-        computed_net = computed_capped - r["local_tax_relief"]
-        delta = abs(computed_net - r["net_tax_billed"])
-        max_delta = max(max_delta, delta)
-        if delta > 100:
+        computed_capped_literal = min(computed_gross, r["gross_av"] * 0.03)
+        delta_literal = abs(computed_capped_literal - r["net_tax_billed"])
+        max_delta_literal = max(max_delta_literal, delta_literal)
+        if delta_literal > 100:
+            explained_by_relief = abs(delta_literal - r["local_tax_relief"]) < 1.0
+            if explained_by_relief:
+                relief_explains += 1
             over_100.append({
-                "parcel_number": r["parcel_number"], "computed_net_tax": round(computed_net, 2),
-                "reported_net_tax": r["net_tax_billed"], "delta": round(delta, 2),
-                "note": "delta beyond formula inputs -- likely another ADJMENTS credit code not modeled here",
+                "parcel_number": r["parcel_number"], "computed_net_tax_literal_formula": round(computed_capped_literal, 2),
+                "reported_net_tax": r["net_tax_billed"], "delta": round(delta_literal, 2),
+                "local_tax_relief_this_parcel": r["local_tax_relief"],
+                "note": ("delta ~= this parcel's own Local Tax Relief line -- a TAXDATA credit "
+                         "not included in the requested formula, not a parsing error"
+                         if explained_by_relief else
+                         "delta NOT fully explained by Local Tax Relief -- needs a look"),
             })
+        computed_full = min(computed_gross - r["local_tax_relief"], r["property_tax_cap_ceiling"])
+        max_delta_full = max(max_delta_full, abs(computed_full - r["net_tax_billed"]))
 
     return {
         "year_used": f"{YEAR} pay {int(YEAR)+1}",
@@ -323,8 +350,11 @@ def main() -> dict:
         "part_b_local_vs_nonlocal": part_b,
         "verification": {
             "sum_per_parcel_net_tax_equals_county_total": recon_sum_tax,
-            "max_computed_vs_reported_delta": round(max_delta, 2),
-            "parcels_off_by_over_100": over_100,
+            "max_delta_literal_formula_net_av_x_rate_capped_3pct_gross_av_vs_reported": round(max_delta_literal, 2),
+            "parcels_off_by_over_100_on_literal_formula": len(over_100),
+            "of_those_explained_by_this_parcels_local_tax_relief_line": relief_explains,
+            "parcels_off_by_over_100_examples": over_100[:10],
+            "max_delta_full_identity_check_nets_local_tax_relief_uses_reported_cap_ceiling": round(max_delta_full, 2),
             "taxdata_missing_for_n_parcels": len(fetch_errors),
             "taxdata_missing_examples": fetch_errors[:10],
         },
