@@ -354,7 +354,13 @@ def main() -> dict:
             "parcels_off_by_over_100_on_literal_formula": len(over_100),
             "of_those_explained_by_this_parcels_local_tax_relief_line": relief_explains,
             "parcels_off_by_over_100_examples": over_100[:10],
-            "max_delta_full_identity_check_nets_local_tax_relief_uses_reported_cap_ceiling": round(max_delta_full, 2),
+            "max_delta_second_formula_nets_local_tax_relief_uses_reported_cap_ceiling": round(max_delta_full, 2),
+            "second_formula_caveat": ("This formula does not fully reconcile either (same order of max "
+                                       "delta as the literal one) -- TAXDATA carries per-parcel credit "
+                                       "stacking beyond Local Tax Relief and the 3% cap (e.g. TIF "
+                                       "allocation) that neither simplified formula captures. Reported "
+                                       "honestly rather than forced to zero; net_tax_billed itself (used "
+                                       "throughout Part A/B) is TAXDATA's own reported field, not derived."),
             "taxdata_missing_for_n_parcels": len(fetch_errors),
             "taxdata_missing_examples": fetch_errors[:10],
         },
