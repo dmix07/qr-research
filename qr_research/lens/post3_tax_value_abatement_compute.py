@@ -78,9 +78,16 @@ def _slice(line: str, start: int, end: int) -> str:
 
 
 def _implied(raw: str, decimals: int) -> float:
+    """Parse a TAXDATA numeric field. Spec (50 IAC 26-21-2(6)) says these are raw digits with
+    an implied decimal point (no literal '.'), but this vendor's export (WinTax, per the file
+    header) writes a literal decimal point for at least the tax-rate field -- confirmed live
+    against the downloaded file, not assumed. Handle both rather than guess which one applies
+    to a given field."""
     s = raw.strip()
     if not s:
         return 0.0
+    if "." in s:
+        return float(s)
     neg = s.startswith("-")
     s = s.lstrip("-")
     n = int(s or "0")
