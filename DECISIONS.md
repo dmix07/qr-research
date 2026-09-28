@@ -293,3 +293,52 @@ industrial development is by itself responsible for roughly half of the total va
 the class and mechanically most of the local-share drop. Not (b) (there's a real, nameable
 cause, not a faceless concentration effect) and not (c) (the existing tax base moved evenly,
 within 2 points, regardless of locality).
+
+## Post 3 — tax vs. value + abatement, top-10 St. Joseph industrial owners
+
+**Spec contradiction, provisional call made (CLAUDE.md ask-only-for-spec-contradiction rule):**
+the request asked for 2025 pay 2026. Checked live against Gateway on 2026-09-28: for St. Joseph
+County, Real Property is available through 2025 pay 2026, the Tax Bill (TAXDATA) file only
+through **2024 pay 2025**, and the Adjustments (ADJMENTS) file — which carries the abatement/ERA
+deduction line Part A explicitly requires — only through **2023 pay 2024**. Chose to run the
+entire artifact on **2023 pay 2024**, the most recent year all three files exist together, rather
+than drop the abatement requirement or silently substitute a different year without saying so.
+Rejected: dropping abatement detail to use 2024 (defeats the point of the request); using 2025
+real-property values against 2024 tax data (mixes assessment years, not a real join). Logged
+here instead of blocking on a question because a reasonable provisional call was available and
+the alternative (stopping to ask) would have cost a full turnaround for a call this session could
+make defensibly.
+
+**Consequence, stated plainly:** 2023 predates Razor5's parcel transfers (first appears in the
+2024 roll per the drilldown above), so Razor5 is not an owner in this book at all. The top-10
+list in `post3_tax_value_abatement.md` is **not** the same ownership snapshot as
+`post2_parent_rollup.md` (2025) — same family-grouping definitions, different year, different
+resulting owners. Top-10 AV shares could not be checked against `post2_parent_rollup` to the
+prior tolerance for this reason; said so in the artifact rather than forcing an invalid
+comparison.
+
+**Byte-layout fix, found and fixed before it produced a wrong number:** TAXDATA's "Property Tax
+Cap This Tax Year" field is the 3%-of-gross-AV *ceiling*, not the circuit-breaker credit itself —
+confirmed empirically (`net tax billed = min(gross tax due − local tax relief, that ceiling)`,
+verified against sampled parcels including one where the cap actually binds). First draft of the
+compute script treated it as the credit directly and summed nonsense per-owner circuit-breaker
+totals (e.g. summing every parcel's ceiling regardless of whether it bound); caught by comparing
+computed vs. reported net tax before publishing, not after. Fixed to derive the actual credit as
+`max(0, (gross tax due − local tax relief) − ceiling)`.
+
+**Verification finding, reported rather than smoothed over:** the literal independent formula the
+brief specified (net-of-deduction AV × district rate, capped at 3% gross AV) does not fully
+reconcile to TAXDATA's reported net tax billed for 62% of the 1,664 parcels — max delta $44,983
+on one parcel. 29% of the mismatched parcels are fully explained by that parcel's own "Local Tax
+Relief" line (a real TAXDATA credit outside the requested formula); the rest are not fully
+explained by that alone and likely involve TIF-allocated AV (a separate field this formula
+doesn't model). This affects only the from-scratch verification formula — every dollar in Part
+A/B is TAXDATA's own reported field, not this derived estimate, and the byte-level parsing itself
+checks out exactly (`net_av ÷ 100 × tax_rate` reproduces TAXDATA's own "Gross Tax Due" field to
+the penny). Reported the mismatch honestly in the artifact rather than tuning the formula until
+it looked clean.
+
+Full tables (Part A top-10 + all-other + total, Part B local/non-local, full verification detail)
+and the real-property-only caveat are in `QR-Shared/post3_tax_value_abatement.md` /`.json`
+(git commit `ff4b66604b580556b1fa2b6219a2572a59f9d490`), delivered and sync-verified to Google
+Drive the same way as posts 1–2.
