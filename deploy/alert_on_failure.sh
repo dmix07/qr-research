@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# Runs after every service run. If the run failed (health != ok or any step errored), email Dustin.
-# Uses ALERT_EMAIL + a local sendmail, or ALERT_WEBHOOK_URL if set. Silent on success by design.
+# Runs after every service run. Always pushes health to the Airtable `sources` table; the
+# "Source health alert" automation there emails Dustin when any row (incl. pipeline_run) leaves ok.
+# ALERT_WEBHOOK_URL / ALERT_EMAIL+sendmail are optional extra channels on failure.
 set -u
+cd /opt/qr-research
+journalctl -u qr-research -n 30 --no-pager 2>/dev/null | .venv/bin/python -m qr_research.deliver.health_to_airtable "${SERVICE_RESULT:-unknown}" || echo "health push to Airtable failed" >&2
 [ "${SERVICE_RESULT:-}" = "success" ] && exit 0
 MSG="qr-research run failed on $(hostname) at $(date -Is). Result: ${SERVICE_RESULT:-unknown}. Last log lines:
 $(journalctl -u qr-research -n 30 --no-pager 2>/dev/null)"
