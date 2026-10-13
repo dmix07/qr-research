@@ -342,3 +342,13 @@ Full tables (Part A top-10 + all-other + total, Part B local/non-local, full ver
 and the real-property-only caveat are in `QR-Shared/post3_tax_value_abatement.md` /`.json`
 (git commit `ff4b66604b580556b1fa2b6219a2572a59f9d490`), delivered and sync-verified to Google
 Drive the same way as posts 1–2.
+
+## Weekly cap of 5 candidates (Oct 13 2026)
+
+| # | Chose | Rejected | Why |
+|---|---|---|---|
+| W1 | `screen/weekly_pick.py`: Airtable gets at most 5 candidates/week, ranked drafts (surface) > accumulations > drafts (hold) > one event per source; already-delivered IDs skipped via a `delivered` table | Deliver everything the generators emit | Generators re-emit full history each run (1,243 rows, all "surface", none reviewed). Dustin can review a few a week; the full lists stay in examples/ and SQLite for accumulation and Lens work. |
+| W2 | LLM screener runs only on a ~15-item shortlist, in rank order, until 5 survive | Screen all ~800 | Same filter quality where it matters, ~50x fewer paid API calls. |
+| W3 | IRS 990 events require prior-year assets >= $250k | Keep the "small base" caveat in the text | 88 of 111 events were percentage jumps off tiny balances (e.g. +22,962,200%). A caveat doesn't make them reviewable. |
+| W4 | Stay on Airtable; Google Sheets delivery parked on branch `sheets-delivery` | Switch to Sheets | At 5/week the 1,000-row free cap lasts ~4 years once the 1,243 backlog rows are cleared. |
+| W5 | Service unit puts `.venv/bin` on PATH and `pip install`s requirements each run | Leave as-is | `make` called bare `python3` (system Python) under systemd, so new requirements would never be importable. |

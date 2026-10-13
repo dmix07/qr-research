@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 from qr_research.connectors.base import COUNTIES, DB_PATH
 
 THRESHOLD = 0.25
+MIN_PRIOR_ASSETS = 250_000  # below this, big percentages are small-dollar noise (88 of 111 events in Oct 2026)
 
 
 def _c(**kw) -> dict:
@@ -30,14 +31,13 @@ def main() -> list[dict]:
         FROM irs_990 WHERE pct_change IS NOT NULL ORDER BY ABS(pct_change) DESC""").fetchall()
     out = []
     for ein, name, city, fips, ly, la, py, pa, chg in rows:
-        if abs(chg) < THRESHOLD:
+        if abs(chg) < THRESHOLD or not pa or pa < MIN_PRIOR_ASSETS:
             continue
-        small_base_caveat = " (small prior-year base — a large percentage here can still be a small dollar move)" if pa and pa < 50000 else ""
         out.append(_c(
             candidate_id=f"scan-990-{ein}",
             counties=[COUNTIES.get(fips, fips)], entity_name=name.strip(), entity_county_fips=fips, event_date=f"{ly}-01-01",
             headline=f"{name.title()} total assets {'up' if chg > 0 else 'down'} {abs(chg):.0%} ({py}→{ly})",
-            why_it_might_matter=f"{name.title()} ({city.title()}) reported total assets of ${la:,.0f} in its {ly} Form 990, versus ${pa:,.0f} in {py} — a {chg:+.0%} change{small_base_caveat}. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
+            why_it_might_matter=f"{name.title()} ({city.title()}) reported total assets of ${la:,.0f} in its {ly} Form 990, versus ${pa:,.0f} in {py} — a {chg:+.0%} change. Worth checking what drove it: a bequest, a capital campaign, a program wind-down, or a merger.",
             axis_a=["ownership", "distribution"], axis_b=["large" if abs(chg) >= 1.0 else "unmeasured"],
             function=["Stewardship"], stock_or_flow="stock",
             evidence_urls=[f"https://projects.propublica.org/nonprofits/organizations/{ein}"],

@@ -5,7 +5,9 @@ After=network-online.target
 Type=oneshot
 WorkingDirectory=/opt/qr-research
 EnvironmentFile=/opt/qr-research/.env
+Environment=PATH=/opt/qr-research/.venv/bin:/usr/local/bin:/usr/bin:/bin
 ExecStartPre=/usr/bin/git -C /opt/qr-research pull --ff-only
+ExecStartPre=/opt/qr-research/.venv/bin/pip install -q -r /opt/qr-research/requirements.txt
 ExecStart=/opt/qr-research/.venv/bin/python -m qr_research.run
 ExecStart=/usr/bin/make -C /opt/qr-research candidates screen deliver health
 ExecStopPost=/opt/qr-research/deploy/alert_on_failure.sh
